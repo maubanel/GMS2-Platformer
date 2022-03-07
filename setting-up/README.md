@@ -15,15 +15,17 @@ Lets get set up so we can start creating the foundation for a platformer
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Lets start by cloning a new project.  Go to [GitHub Classroom - GMS2-Platformer](https://classroom.github.com/a/GkXEdEOw).
+Lets start by cloning a new project.  Go to [GitHub Classroom - GMS2-Platformer](https://classroom.github.com/a/GkXEdEOw). Press the <kbd>Accept this Assignment</kbd> button.
 
-![alt_text](images/.png)
+![accept assignment from github classroom](images/acceptAssignment.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+You will be taken to a page that says to wait for hte assignment to be prepared.  Refresh the web browser and you should see a link to your new repository.
+
+![link to github repo](images/linkToRepo.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
