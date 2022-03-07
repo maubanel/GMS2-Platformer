@@ -79,7 +79,7 @@ Download [spr_collisions.png](images/spr_collisions.png). We will use this as ou
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on **Tile Sets** and select **New | Tile Set** and name it `tls_platformer_bkg`. Assign **spr_platformer_tiles** to this **Tile Set**. Change the **Tile Width** and **Tile Height** to `64`.  This is the size I used when creating the tiles.
+*Right click* on **Tile Sets** and select **New | Tile Set** and name it `tls_collisions`. Assign **spr_collisions** to this **Tile Set**. Change the **Tile Width** and **Tile Height** to `32`.  
 
 ![create collision tileset](images/createCollisionTileset.png)
 
