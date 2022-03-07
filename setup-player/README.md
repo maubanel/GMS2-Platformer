@@ -31,7 +31,7 @@ Now you should have downloaded a file called **catndog.zip**.  Uncompress it and
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We have 10 frames of animation.  It will be easier to position the sprite the way we want to in Photoshop as opposed to **GameMaker**.  In GMS2 we cannot move the files for all frames. We want to load all the files of an animation as separate layers in a single **Photoshop** file.  We can do this by selecting **File | Scripts | **
+We have 10 frames of animation.  It will be easier to position the sprite the way we want to in Photoshop as opposed to **GameMaker**.  In GMS2 we cannot move the files for all frames. We want to load all the files of an animation as separate layers in a single **Photoshop** file.  We can do this by selecting **File | Scripts | Load Files Into Stack**.
 
 ![alt_text](images/loadFilesAsLayers.png)
 
