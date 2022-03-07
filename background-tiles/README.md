@@ -31,7 +31,7 @@ Download [spr_platformer_tiles.png](images/spr_platformer_tiles.png). *Right cli
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **Room Test**.  
+Open up **Room Test**.  Chnage the **Width** and **Height** of the room to `4032` wide by `1536` high.  Select `Enable Viewport` and open up **Viewport 0** and click on `Visible`.  Add a new **Tileset** layer and call it `Platforms`.  Assign the **tls_platformer_bkg** to this layer.
 
 ![alt_text](images/assignRoomTileset.png)
 
