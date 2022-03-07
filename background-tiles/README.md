@@ -25,7 +25,7 @@ Download [spr_platformer_tiles.png](images/spr_platformer_tiles.png). *Right cli
 
 *Right click* on **Tile Sets** and select **New | Tile Set** and name it `tls_platformer_bkg`.
 
-![alt_text](images/tlsPlatformer.png)
+![create tileset with above sprite](images/tlsPlatformer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
