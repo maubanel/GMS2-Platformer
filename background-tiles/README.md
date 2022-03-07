@@ -39,25 +39,33 @@ Open up **Room Test**.  Chnage the **Width** and **Height** of the room to `4032
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the new **Platforms** layer and select the solid ground tile.  Place it along the bottom of the room to establish a floor, so the player can't go beneath the bottom of the screen.
+
+![add floor tiles](images/layGroundwork.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Lets establish a ground layer and select the full block of ground with grass on top.  This will tile on top of our ground layer.  Also add 6 boxes at either side of the level to prevent the player from leaving.
+
+![add grass ground and box in player](images/boxAndGrass.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Lets build an area close to the start (the bottom left of the screen) with some jump platforms.  We should be able to single jump onto both of these platforms.
+
+![add jump platforms](images/testJumpingArea.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets offset the camera so it starts at the bottom left of the level.  Open up **rm_test** and change the **Viewport 0 | YPos** to `768` which brings the starting window to the correct spot. 
+
+![alt_text](images/offsetCam.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
