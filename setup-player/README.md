@@ -47,7 +47,9 @@ Now select the folder you downloaded and select the 10 idle frames of the animat
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now select all 10 idle frames and 
+
+![alt_text](images/import10Idles.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
