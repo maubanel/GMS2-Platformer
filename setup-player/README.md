@@ -2,7 +2,7 @@
 
 ### Setup Player
 
-<sub>[previous](../background-tiles/README.md#user-content-background-tiles) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../)</sub>
+<sub>[previous](../background-tiles/README.md#user-content-background-tiles) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../gravity-collision/README.md#user-content-gravity-and-ground-collision)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -187,5 +187,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../background-tiles/README.md#user-content-background-tiles)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../)|
+| [previous](../background-tiles/README.md#user-content-background-tiles)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../gravity-collision/README.md#user-content-gravity-and-ground-collision)|
 |---|---|---|
