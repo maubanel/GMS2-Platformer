@@ -31,7 +31,9 @@ You will be taken to a page that says to wait for hte assignment to be prepared.
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Code</kbd> button and select **Open with GitHub Desktop**.
+
+![open new repo with github desktop](images/openOnGithub.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
