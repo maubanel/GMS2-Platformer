@@ -151,7 +151,10 @@ https://user-images.githubusercontent.com/5504953/157048996-c62467b0-6112-40e1-9
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Repeat the project and import `run (1).png` through `run (8)`. Import them into **Photoshop** with **File | Scripts | Load Files Into Stack** to bring them into one file in multiple layers.  Organize the layers in order of 1 through 8 then position the player at the very bottom of the frame and in the center.  Export each layer as a separate file with  **File | Export | Layers to Files**. Press the <kbd>Resize sprite</kbd> button.  
+
+Open up **GameMaker** and *Right click* on **Sprites** and select **New | Sprite** and name it `spr_player run`. Change the **Scale Image | Width** to `128`.  Press the `Apply` button  Press the <kbd>Resize sprite</kbd> button. Now select **Resize Canvas | Height** to `128`.  Make sure you press the **Down** arrow so that the feet stay at the bottom of the frame. Set the **Frames per Second** to `12` and test the run animation.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
