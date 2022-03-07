@@ -33,7 +33,7 @@ Download [spr_platformer_tiles.png](images/spr_platformer_tiles.png). *Right cli
 
 Open up **Room Test**.  Chnage the **Width** and **Height** of the room to `4032` wide by `1536` high.  Select `Enable Viewport` and open up **Viewport 0** and click on `Visible`.  Add a new **Tileset** layer and call it `Platforms`.  Assign the **tls_platformer_bkg** to this layer.
 
-![alt_text](images/assignRoomTileset.png)
+![setup room to receive tiles](images/assignRoomTileset.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
