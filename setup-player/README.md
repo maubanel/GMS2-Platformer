@@ -111,7 +111,9 @@ Press the <kbd>Resize sprite</kbd> button.  Change the **Scale Image | Width** t
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Lets make the sprite square to simplify our math.  Press the <kbd>Resize sprite</kbd> button. Now select **Change **
+
+![alt_text](images/resizeCanvas.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
