@@ -2,7 +2,7 @@
 
 ### Background Tiles
 
-<sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../)</sub>
+<sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../setup-player/README.md#user-content-setup-player)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -112,9 +112,9 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Setup Player">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../)|
+| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../setup-player/README.md#user-content-setup-player)|
 |---|---|---|
