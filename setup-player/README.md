@@ -79,7 +79,9 @@ Center the player so that the middle of the sprite hits right between two legs. 
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/exportLayesAsFiles.png)
+Now we need to export the layers as separate files.  Select **File | Export | Layers to Files**. Select a **Desitnation** directory, use the **Prefix** `spr_` and select a `PNG-24` type.  Press the <kbd>Run</kbd> button.
+
+![export layers to files](images/exportLayesAsFiles.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
