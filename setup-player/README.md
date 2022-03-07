@@ -135,9 +135,9 @@ Now we should have our idle animation at the right size for this prototype.
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Open up **rm_test** and drag the player into the room at the bottom left of the level.
+Open up **rm_test** and change the name of the **Instances** layer to `Player`. Drag the player into the room at the bottom left of the level.
 
-![place player at bottom left of level](images/.png)
+![place player at bottom left of level](images/playerInLevel.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
