@@ -155,6 +155,7 @@ Repeat the project and import `run (1).png` through `run (8)`. Import them into 
 
 Open up **GameMaker** and *Right click* on **Sprites** and select **New | Sprite** and name it `spr_player run`. Change the **Scale Image | Width** to `128`.  Press the `Apply` button  Press the <kbd>Resize sprite</kbd> button. Now select **Resize Canvas | Height** to `128`.  Make sure you press the **Down** arrow so that the feet stay at the bottom of the frame. Set the **Frames per Second** to `12` and test the run animation.
 
+https://user-images.githubusercontent.com/5504953/157051114-7f34d1ee-5ad8-4d3f-8078-9633dd898e65.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
