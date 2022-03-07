@@ -17,7 +17,7 @@ Lets set up a playground so that we can test various elements of a platormer.  L
 
 Download [spr_platformer_tiles.png](images/spr_platformer_tiles.png). *Right click* on **Sprites** and select **New | Sprite** and name it `spr_platformer_tiles`. Press the <kbd>Import</kbd> button to bring in a basic set of tiles.  Call the 
 
-![alt_text](images/.png)
+![import spr_platformer_tiles and create sprite](images/importTiles.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
