@@ -94,7 +94,9 @@ You should have 10 idle sprite files in the folder you exported to that looks li
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Go back to **GameMaker**.  *Right click* on **Sprites** and select **New | Sprite** and name it `spr_player_idle`. Press the <kbd>Import</kbd> button and import all 10 frames.  Now adjust the framerate, I like `12` frames per second.  Play the animation and make sure it looks good.
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
