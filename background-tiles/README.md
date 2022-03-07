@@ -71,7 +71,9 @@ Now lets offset the camera so it starts at the bottom left of the level.  Open u
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Download [spr_collisions.png](images/spr_collisions.png). We will use this as our collision detection layer. We need some way to have a separate layer that tells players where they can and cannot move into.  The smaller these are the more expensive they get.  We made ours `32` by `32`.  *Right click* on **Sprites** and select **New | Sprite** and name it `spr_collisions`. Press the <kbd>Import</kbd> button to bring in a single collision tile.  
+
+![download spr_collisions.png](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
