@@ -87,13 +87,16 @@ Download [spr_collisions.png](images/spr_collisions.png). We will use this as ou
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/collisionLayer.png)
+Open up **rm_test** and add another **Tile Set** layer and call is `Collisions`.  Assign tls_collisions.
+![add collisions layer](images/collisionLayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Select the **Collisions** layer and start to put the single pink tile to where you want the player to not enter.  So this would be the far left edge of the wall and the top edge of the floor.  This will be hidden when the game is ready is played, and is visually just showing us the collision volume so we can test our collision detection system.
+
+![add collision to level](images/startCollisions.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
