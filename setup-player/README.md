@@ -119,19 +119,25 @@ Lets make the sprite square to simplify our math.  Press the <kbd>Resize sprite<
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we should have our idle animation at the right size for this prototype.
+
+![idle player sprite](images/finalIdle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **Objects** and select **New | Object** and name it `obj_player`. Set the **Sprite** to `spr_player_idle`.
+
+![add obj_player and assign player sprite](images/objPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **rm_test** and drag the player into the room at the bottom left of the level.
+
+![place player at bottom left of level](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
