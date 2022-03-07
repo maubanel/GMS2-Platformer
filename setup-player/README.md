@@ -145,7 +145,7 @@ Open up **rm_test** and change the name of the **Instances** layer to `Player`. 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You will see a player idling!
 
-
+https://user-images.githubusercontent.com/5504953/157048996-c62467b0-6112-40e1-9c26-59155c636611.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
