@@ -33,13 +33,15 @@ Now you should have downloaded a file called **catndog.zip**.  Uncompress it and
 
 We have 10 frames of animation.  It will be easier to position the sprite the way we want to in Photoshop as opposed to **GameMaker**.  In GMS2 we cannot move the files for all frames. We want to load all the files of an animation as separate layers in a single **Photoshop** file.  We can do this by selecting **File | Scripts | Load Files Into Stack**.
 
-![alt_text](images/loadFilesAsLayers.png)
+![load files into stack](images/loadFilesAsLayers.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now select the folder you downloaded and select the 10 idle frames of the animation.
+
+![select 10 idle frames](images/importIdle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
