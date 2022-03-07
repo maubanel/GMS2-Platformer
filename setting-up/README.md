@@ -39,9 +39,9 @@ Press the <kbd>Code</kbd> button and select **Open with GitHub Desktop**.
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Press the <kbd>Choose</kbd> button and select the folder you want to put the project in.  When it is set, press the <kbd>Clone</kbd> button.
 
-
-![alt_text](images/chooseFolderClone.png)
+![clone repo](images/chooseFolderClone.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
