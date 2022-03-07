@@ -168,8 +168,9 @@ Repeat the above for **jump (1).png** (all 8 files) and call it `spr_player_jump
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
+ Now we will combine **Hurt (1).png** and **Dead (1).png**. We will go from hurt to die as a single animation.  So bring them both in and order them Hurt 1 through 8 and Dead 1 throug 10 in the photoshop layers.  It should end up looking like this when playing back at `8` frames per second.  We play this back slower to exaggerate and emphasize the death animation.
 
-![alt_text](images/.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
