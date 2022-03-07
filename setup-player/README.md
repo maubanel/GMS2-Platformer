@@ -86,8 +86,9 @@ Now we need to export the layers as separate files.  Select **File | Export | La
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
+You should have 10 idle sprite files in the folder you exported to that looks like this:
 
-![alt_text](images/.png)
+![10 idles files](images/TenSpritesIdle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
