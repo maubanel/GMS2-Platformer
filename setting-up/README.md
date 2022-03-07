@@ -47,13 +47,17 @@ Press the <kbd>Choose</kbd> button and select the folder you want to put the pro
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now navigate to the folder that you just cloned.  You should have a list of files the same as the below photo.
+
+![repository directory](images/repoFolder.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open the **README.md** in a text editor and add your name to the repo.
+
+![add name to README.md](images/nameReadme.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
