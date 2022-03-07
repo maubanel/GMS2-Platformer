@@ -111,9 +111,9 @@ Press the <kbd>Resize sprite</kbd> button.  Change the **Scale Image | Width** t
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Lets make the sprite square to simplify our math.  Press the <kbd>Resize sprite</kbd> button. Now select **Change **
+Lets make the sprite square to simplify our math.  Press the <kbd>Resize sprite</kbd> button. Now select **Resize Canvas | Height** to `128`.  Make sure you press the **Down** arrow so that the feet stay at the bottom of the frame.
 
-![alt_text](images/resizeCanvas.png)
+![resize canves to 128 by 128](images/resizeCanvas.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
