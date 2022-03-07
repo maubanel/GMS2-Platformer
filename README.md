@@ -23,7 +23,7 @@ In this walk through we will be working on:
 ## GMS2 Top Down Shooter - Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
-
+<kbd></kbd> &nbsp;&nbsp; [Background Tiles](background-tiles/README.md#user-content-background-tiles) <br>
 
 <!-- LICENSE -->
 ## License
