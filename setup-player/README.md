@@ -47,21 +47,25 @@ Now select the folder you downloaded and select the 10 idle frames of the animat
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-Now select all 10 idle frames and 
+Now select all 10 idle frames and press the <kbd>Open</kbd> button.
 
-![alt_text](images/import10Idles.png)
+![open all 10 files](images/import10Idles.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select all 10 layers and grab the move tool.  Move the player down with all frames selected so that the feet touch the very bottom of the frame (don't go too far but don't leave any dmpety alpha pixels between the player's foot and the ground).
+
+![lower player](images/movePlayerToBottom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Left click on the ruler and add a guide to 273.5 the middle of the sprite.  Notice the player is off center.
+
+![add guide to photoshop of idle player](images/dragGuide.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
