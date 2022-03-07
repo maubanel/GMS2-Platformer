@@ -15,7 +15,7 @@ Lets set up a playground so that we can test various elements of a platormer.  L
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Download [spr_platformer_tiles.png](images/spr_platformer_tiles.png). *Right click* on **Sprites** and select **New | Sprite** and name it `spr_platformer_tiles`. Press the <kbd>Import</kbd> button to bring in a basic set of tiles.  Call the 
+Download [spr_platformer_tiles.png](images/spr_platformer_tiles.png). *Right click* on **Sprites** and select **New | Sprite** and name it `spr_platformer_tiles`. Press the <kbd>Import</kbd> button to bring in a basic set of tiles.  
 
 ![import spr_platformer_tiles and create sprite](images/importTiles.png)
 
