@@ -23,7 +23,7 @@ Download [spr_platformer_tiles.png](images/spr_platformer_tiles.png). *Right cli
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **Tile Sets** and select **New | Tile Set** and name it `spr_foo`.
+*Right click* on **Tile Sets** and select **New | Tile Set** and name it `tls_platformer_bkg`.
 
 ![alt_text](images/tlsPlatformer.png)
 
