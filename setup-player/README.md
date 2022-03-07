@@ -15,7 +15,7 @@ Lets bring in a sprite sheet from the internet and set it up for our needs.
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Download the free [Game Art 2D Dog Sprite](https://www.gameart2d.com/cat-and-dog-free-sprites.html) from gameart2d.com.  This will give us what we need to finish our prototype.  You can replace it with your own character after as long as it conforms to the same dimensions (64 wide by 96 tall).
+Download the free [Game Art 2D Dog Sprite](https://www.gameart2d.com/cat-and-dog-free-sprites.html) from gameart2d.com.  This will give us what we need to finish our prototype.  You can replace it with your own character after as long as it conforms to the same dimensions (64 wide by 96 tall). Press the **Free Download** button.
 
 ![download dog sprite](images/downloadDog.png)
 
@@ -23,7 +23,9 @@ Download the free [Game Art 2D Dog Sprite](https://www.gameart2d.com/cat-and-dog
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now you should have downloaded a file called **catndog.zip**.  Uncompress it and go into the **png | dog** folder.  We will start by adjusting the **Idle** animations.
+
+![decompress dog files and look at idle](images/dogFiles.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
