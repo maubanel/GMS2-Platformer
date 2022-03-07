@@ -73,13 +73,15 @@ Now lets offset the camera so it starts at the bottom left of the level.  Open u
 
 Download [spr_collisions.png](images/spr_collisions.png). We will use this as our collision detection layer. We need some way to have a separate layer that tells players where they can and cannot move into.  The smaller these are the more expensive they get.  We made ours `32` by `32`.  *Right click* on **Sprites** and select **New | Sprite** and name it `spr_collisions`. Press the <kbd>Import</kbd> button to bring in a single collision tile.  
 
-![download spr_collisions.png](images/.png)
+![download spr_collisions.png](images/sprCollisions.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Tile Sets** and select **New | Tile Set** and name it `tls_platformer_bkg`. Assign **spr_platformer_tiles** to this **Tile Set**. Change the **Tile Width** and **Tile Height** to `64`.  This is the size I used when creating the tiles.
+
+![create collision tileset](images/createCollisionTileset.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
