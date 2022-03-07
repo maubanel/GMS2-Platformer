@@ -160,6 +160,8 @@ Open up **GameMaker** and *Right click* on **Sprites** and select **New | Sprite
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Repeat the above for **jump (1).png** and call it `spr_player_jump`, 
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
