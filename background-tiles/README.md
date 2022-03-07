@@ -23,7 +23,7 @@ Download [spr_platformer_tiles.png](images/spr_platformer_tiles.png). *Right cli
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **Tile Sets** and select **New | Tile Set** and name it `tls_platformer_bkg`.
+*Right click* on **Tile Sets** and select **New | Tile Set** and name it `tls_platformer_bkg`. Assign **spr_platformer_tiles** to this **Tile Set**. Change the **Tile Width** and **Tile Height** to `64`.  This is the size I used when creating the tiles.
 
 ![create tileset with above sprite](images/tlsPlatformer.png)
 
