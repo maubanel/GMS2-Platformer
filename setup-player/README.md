@@ -103,7 +103,9 @@ https://user-images.githubusercontent.com/5504953/157036639-f5ac79c9-b449-4789-9
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Press the <kbd>Resize sprite</kbd> button.  Change the **Width**
+
+![alt_text](images/rescale.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
