@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Now we have the player falling but no lateral movement.  We can't move the player left to right.  We also have no left and right collision.  Lets remedy that!
 
 <br>
 
