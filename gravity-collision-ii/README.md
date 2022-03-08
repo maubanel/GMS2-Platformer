@@ -33,7 +33,9 @@ Now go back to the **End Step** event and call the script (in place of where the
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go to the **Step** event and only add gravity when the player is not on the ground.
+
+![add gravity when on ground](images/onAddGravity.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
