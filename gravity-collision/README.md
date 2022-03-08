@@ -146,7 +146,9 @@ If we want to be on top of the ground we will have to remove one more pixel and 
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now go back to the **Create** event and create a variable that holds the size of our collision volume.  It is `32` by `32` so we will make it so!
+
+![add tile size variable](images/gridSize.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
