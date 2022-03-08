@@ -38,22 +38,24 @@ https://user-images.githubusercontent.com/5504953/157279964-41c29a59-09d1-48e9-b
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+ 
+Now lets have the player face in the direction they are supposed to point in. If the player is not moving laterally we will leave the last direction.  If the player is moving then set the `image_xscale` to the `sign (hspeed)`.  This sets it to -1 or 1.  The sign will return `-1` for any negative number (player moving left) and +1 for when `hspeed` is any number above `0`.  This will flip the orientation of the sprite at +1 for right and -1 for left.
 
-We have done collision detection for the feet.  Now we need to do collision detection for the sides.  We want it to check three collision zones to the left.  Now since the feet narrow and the dog's head is so large we want our side feelers to be further out so in this case it will be `x - 32` pixels away.  On the **y** axis we will be checking three 32 pixels collision zones.  The top of the bottom zone at `-31`, the top of the middle zone at `-63` and the bottom of the top zone at `-65`.  This way our side feelers will not be in the way of the ground or ceiling checks making sure that we are not doing both a ground or ceiling as well as a lateral when not wanted.  
-
-![lateral collisoin diagram](images/lateral_collision.png)
+![flip player horizontally](images/flipPlayerHor.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We have done collision detection for the feet.  Now we need to do collision detection for the sides.  We want it to check three collision zones to the left.  Now since the feet narrow and the dog's head is so large we want our side feelers to be further out so in this case it will be `x - 32` pixels away.  On the **y** axis we will be checking three 32 pixels collision zones.  The top of the bottom zone at `-31`, the top of the middle zone at `-63` and the bottom of the top zone at `-65`.  This way our side feelers will not be in the way of the ground or ceiling checks making sure that we are not doing both a ground or ceiling as well as a lateral when not wanted.  
+
+![lateral collisoin diagram](images/lateral_collision.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
