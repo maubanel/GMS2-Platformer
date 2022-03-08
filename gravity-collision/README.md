@@ -2,7 +2,7 @@
 
 ### Gravity and Ground Collision
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../)</sub>
+<sub>[previous](../setup-player/README.md#user-content-setup-player) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../gravity-collision-ii/README.md#user-content-gravity-and-ground-collision-ii)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -211,9 +211,9 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Gravity and Ground Collision II">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../)|
+| [previous](../setup-player/README.md#user-content-setup-player)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../gravity-collision-ii/README.md#user-content-gravity-and-ground-collision-ii)|
 |---|---|---|
