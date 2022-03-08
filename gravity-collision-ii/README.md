@@ -73,7 +73,7 @@ https://user-images.githubusercontent.com/5504953/157272153-507a999b-b475-4aa6-b
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now there is two more things I would like to do before wrapping this part. Remove all the `show_debug_message()` strings and make sure the collision math is only using integers.  The `eft_check_below = tilemap_get_at_pixel(tile_id, x + bottom_left, y + 1);` would sometimes return an incorrect response when the pixel was fractional.
+Now there is two more things I would like to do before wrapping this part. Remove all the `show_debug_message()` strings and make sure the collision math is only using integers.  The `tilemap_get_at_pixel(tile_id, x + bottom_left, y + 1);` would sometimes return an incorrect response when the pixel was fractional.
 
 So before we run any collision we will subtract the fractional value from both `x` and `y`.  `frac(n)`
 
