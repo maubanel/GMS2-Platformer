@@ -162,7 +162,19 @@ Now go back to the **End Step** and take the modulus of the `grid_size` and add 
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to:
+
+1. Create a temporary veraible to hold how much we need to move on y if any.
+
+2.  Check if either foot is in the ground.
+
+3.  If one foot is in the ground we want to adjust the y
+
+4.  If the y adjustment is a negative value then the player is in the ground and we will move the y.
+
+5.  Lets add two debug prints to see what is happening.
+
+![adjust y when foot is in ground](images/adjustY.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
