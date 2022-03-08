@@ -33,6 +33,8 @@ Now we can subtract the `vk_left` key from the `vk_right` key which is subtracti
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now run laterally and you can move left and right.  You can also move up to the platforms as the ground collision is doing its job.
 
+https://user-images.githubusercontent.com/5504953/157279964-41c29a59-09d1-48e9-b663-824291ab4184.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
