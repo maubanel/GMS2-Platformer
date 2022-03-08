@@ -89,6 +89,7 @@ So if **x** is `134.567` then we would save `.567` subtract it from **X** so it 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now it should be the same as before but with no messages being printed as they were removed.
 
+https://user-images.githubusercontent.com/5504953/157274569-5499dfd5-ddf6-468a-85e3-38eb407d6eab.mp4
 
 ___
 
