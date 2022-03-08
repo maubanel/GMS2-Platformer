@@ -71,15 +71,21 @@ Now I want the player to be able to stand on the ledge with one foot.  I don't w
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now first we need to adjust the origin of all of our sprites.  We want them to be at the bottom center of the feet. Change the **Origin** to `bottom center` for 
+Now first we need to adjust the origin of all of our sprites.  The most important thing is to detect if we are on the ground and we are not rotating the sprite.  So we want the origin to be in the middle bottom as we will be checking for ground every frame. We want them to be at the bottom center of the feet. Change the **Origin** to `bottom center` for **spr_player_run**, **spr_player_jump**, **spr_player_idle**, **spr_player_fall** and **spr_player_dead**.
 
-![alt_text](images/bottomCenterOrigin.png)
+![bottom center origin on all player sprites](images/bottomCenterOrigin.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/checkPixel.png)
+Now we can check 6 pixels to the left and to the right to see if either foot is colliding with a collision tile.  We us the `tilemape_get_at_pixel(tilemap_element_id, x, y)` function to know if there is a collision tile at those two very locations.
+
+> IMPORTANT! If the tiles in the tile map have been unchanged (ie: they are not rotated or flipped etc...), then the return value of the tile set data will be exactly equal to the index of the tile on the tile set. So you can create "collision maps" of tiles using one tile at index 1 in the tile set - for example - then use this function to check for 1 or 0 (an empty tile) to calculate collisions. - [GMS2 Manual](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/tilemap_get_at_pixel.htm)
+
+Now we are not rotating these tiles so we will get the index back of where in the tilesheet we are getting a value from. We will print out the result and look at the console window for what we get back.
+
+![check pixel on both feet](images/checkPixel.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
