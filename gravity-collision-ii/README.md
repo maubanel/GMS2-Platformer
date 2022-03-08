@@ -1,12 +1,12 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Add Title
+### Gravity and Ground Collision II
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Lets finish up our very first pass at the ground collision
 
 <br>
 
@@ -15,7 +15,11 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Now since we have a lot of collision code lets separate each collision direction in a separate script.  Copy the script from the **end step** into a newly created script called `check_for_ground`. Leave the last `show_debug_message` in the **end step**.
+
+Now we do not want to apply gravity every frame, only when we are in the air or not on the ground.  So this function will return `true` when we are on the ground and `false` when we are not.  Add this to the script you just pasted.
+
+![add check for ground script](images/checkForGround.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
