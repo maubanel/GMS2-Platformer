@@ -15,9 +15,9 @@ Now we have a surface to run on and we have a player to animate along this surfa
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Press the <kbd>Add Event</kbd> and select a **Create** event. Add a variable to add an acceleration force downwards every frame to mimic gravity.  Now I feel that for this game a value of 
+Press the <kbd>Add Event</kbd> and select a **Create** event. Add a variable to add an acceleration force downwards every frame to mimic gravity.  Now I feel that for this game a value of `0.2` pixels per frame will work fine and we will use a variable called `p_gravity`.
 
-![alt_text](images/createGrav.png)
+![add p_gravity of .2 to create event on player](images/createGrav.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
