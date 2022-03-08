@@ -25,7 +25,9 @@ Now we do not want to apply gravity every frame, only when we are in the air or 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now go back to the **End Step** event and call the script (in place of where the code used to be).
+
+![call check for ground method](images/callNewScript.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
