@@ -67,6 +67,7 @@ Now in th `else` statement lets check to see if they are one pixel from the grou
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when the player falls it doesn't change every second frame between on_ground and not on_ground (!on_ground). It knows it is on ground because it is one pixel beneath the player. So we only see the message once in the debugger.
 
+https://user-images.githubusercontent.com/5504953/157272153-507a999b-b475-4aa6-be77-1448ff9d08dd.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
