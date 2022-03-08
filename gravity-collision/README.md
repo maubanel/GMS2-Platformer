@@ -118,19 +118,27 @@ Open up the **Create** event on **obj_player** and add a **boolean** to track if
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now instead of hard coding the left and right foot lets add the variable so we can adjust it easily in the create event.
+
+![remove hard coded values](images/adjustHardCoded.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+So when the player is updated and is below the ground we need to move them back on top.  How do we know how many pxiels they are from the top of the current cel?
+
+![top of cell in pixels?](images/howManyPixels.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+We can use the **modulus** function to get this.  This gives us the remainder of a division.  We represent modulus with the `%` sign.  So if we take the modulus of `6` by `2` (`6/2`) the answer is `0`.  As  6/2 is 3 with a remainder 0 (2 goes into 6 three times).  If we take the modulus of `6` by `4` the answer is `2`.  As 4 goes into 6 1 time with a remainder of 2.
+
+So if we take the modulus of the current y position of the player and take the collision grid size modulus we will get the value we want. So if the player is at 1414 and we take the modulus of 32 we get a value of 6.  So the player is 6 pixels from the top of the tile grid. If we take 1414 - 6 it is 1408.  So we the 44th collision tile (1408/32 = 44).
+
+![use modulus to get y offset](images/modulus.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
