@@ -71,13 +71,15 @@ Now I want the player to be able to stand on the ledge with one foot.  I don't w
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/checkPixel.png)
+Now first we need to adjust the origin of all of our sprites.  We want them to be at the bottom center of the feet. Change the **Origin** to `bottom center` for 
+
+![alt_text](images/bottomCenterOrigin.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/checkPixel.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
