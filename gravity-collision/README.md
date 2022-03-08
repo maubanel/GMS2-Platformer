@@ -154,7 +154,9 @@ Now go back to the **Create** event and create a variable that holds the size of
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now go back to the **End Step** and take the modulus of the `grid_size` and add `1` to get one pixel on top of this tile.
+
+![find modulus distance](images/distanceFromTop.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
