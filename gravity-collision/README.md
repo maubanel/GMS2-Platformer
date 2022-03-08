@@ -186,7 +186,7 @@ Now we need to:
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will see that the player does stop and reposition. The problem is that we are continuing to increase the gravity without restricting it.  So eventually the vspeed is larger than the thickness of the collision volume and player falls through.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
