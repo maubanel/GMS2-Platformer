@@ -134,7 +134,7 @@ So when the player is updated and is below the ground we need to move them back 
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-We can use the **modulus** function to get this.  This gives us the remainder of a division.  We represent modulus with the `%` sign.  So if we take the modulus of `6` by `2` (`6/2`) the answer is `0`.  As  6/2 is 3 with a remainder 0 (2 goes into 6 three times).  If we take the modulus of `6` by `4` the answer is `2`.  As 4 goes into 6 1 time with a remainder of 2.
+We can use the **modulus** function to get this.  This gives us the remainder of a division.  We represent modulus with the `%` sign.  So if we take the modulus of `6` by `2` (`6/2`) the answer is `0`.  As  6/2 is 3 with a remainder 0 (2 goes into 6 three times).  If we take the modulus of `6` by `4` the answer is `2`.  As 4 goes into 6 one time with a remainder of `2`.
 
 So if we take the modulus of the current y position of the player and take the collision grid size modulus we will get the value we want. So if the player is at 1414 and we take the modulus of 32 we get a value of 6.  So the player is 6 pixels from the top of the tile grid. If we take 1414 - 6 it is 1408.  So we the 44th collision tile (1408/32 = 44).
 
