@@ -91,19 +91,25 @@ Now we are not rotating these tiles so we will get the index back of where in th
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/getPixelReturn.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Stop the game and look at the bottom console.  You will see that it goes from `0` for both feet (there is no tilesheet in that pixel) or `1` showing that we are seeing the first index in our tilesheet which is our collision.
+
+![1 for collision](images/getPixelReturn.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.png)
+When the player leaves the room the value returned in `-1` indicating that there are no tiles of any sort in that area.
+
+![-1 outside of room](images/negativeOne.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up the **Create** event on **obj_player** and add a **boolean** to track if the player is on the ground or not.  Then lets take the left and right foot ground check and turn them into two variables `bottom_left` and `bottom_right`.
+
+![add on_ground and foot variables](images/newVars.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
