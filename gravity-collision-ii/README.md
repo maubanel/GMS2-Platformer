@@ -57,15 +57,16 @@ Now we don't want the player to be constantly going on ground and in air as when
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
+Now in th `else` statement lets check to see if they are one pixel from the ground.  Lets check both feet again but this time we are checking `y+1` which is one pixel below the feet.  If one of these hits ground then the player is still `on_ground` and we return `true`.
 
-
-![alt_text](images/notOnGround.png)
+![check if player is one pixel from ground](images/notOnGround.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when the player falls it doesn't change every second frame between on_ground and not on_ground (!on_ground). It knows it is on ground because it is one pixel beneath the player.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
