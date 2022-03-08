@@ -49,13 +49,17 @@ https://user-images.githubusercontent.com/5504953/157242235-c8149476-e047-4268-b
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now we don't want the player to be constantly going on ground and in air as when they are 1 pixel on top of the collision volume they are back to in air, even though they are in ground.  So lets add two temporary variables to track the ground one pixel below our feet.
+
+![check below vars](images/checkBelowTemp.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/notOnGround.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
