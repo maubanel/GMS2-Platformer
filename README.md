@@ -27,6 +27,7 @@ In this walk through we will be working on:
 <kbd></kbd> &nbsp;&nbsp; [Setup Player](setup-player/README.md#user-content-setup-player) <br>
 <kbd></kbd> &nbsp;&nbsp; [Gravity and Ground Collision](gravity-collision/README.md#user-content-gravity-and-ground-collision) <br>
 <kbd></kbd> &nbsp;&nbsp; [Gravity and Ground Collision II](gravity-collision-ii/README.md#user-content-gravity-and-ground-collision-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Lateral Movement and Wall Collision](lateral-collision-ii/README.md#user-content-lateral-movement-and-wall-collision) <br>
 
 <!-- LICENSE -->
 ## License
