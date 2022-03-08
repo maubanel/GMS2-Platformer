@@ -138,7 +138,7 @@ We can use the **modulus** function to get this.  This gives us the remainder of
 
 So if we take the modulus of the current y position of the player and take the collision grid size modulus we will get the value we want. So if the player is at `1414` and we take the modulus of `32` we get a value of `6`.  So the player is `6` pixels from the top of the tile grid. If we take `1414 - 6` it is `1408`.  So we the 44th collision tile (1408/32 = 44).
 
-If we want to be on top of the ground we will have to remove one more pixel and the player will be on top of the ground.
+If we want to be on top of the ground we will have to remove one more pixel and the player will be on top of the ground at pixel `1407`.
 
 ![use modulus to get y offset](images/modulus.png)
 
