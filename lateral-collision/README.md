@@ -15,13 +15,17 @@ Now we have the player falling but no lateral movement.  We can't move the playe
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Lets add a variable to **obj_player | Create** event to track the speed the player runs at.
+
+![add run velocity variable](images/runAcceleration.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we can subtract the `vk_left` key from the `vk_right` key which is subtracting two booleans.  So if the player is holding the left arrow it will be `-1` (0 - 1).  If the player is holding the right key it will be `1` (1 - 0).  If the player is holding no or both keys it will be `0` (0 - 0 or 1 - 1).  So we can now multiply this by our `run_velocity` and it will move either left or right or stay in the same spot.
+
+![set hspeed to input](images/setHspeed.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
