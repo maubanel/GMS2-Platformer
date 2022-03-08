@@ -204,6 +204,8 @@ So when we make the ground adjustment we know the player is no longer falling.  
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will notice the player does not fall through the ground.
 
+https://user-images.githubusercontent.com/5504953/157240612-306d4ced-18ec-4f61-a982-d8ee0042ca2c.mp4
+
 ___
 
 
