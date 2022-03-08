@@ -75,7 +75,7 @@ https://user-images.githubusercontent.com/5504953/157272153-507a999b-b475-4aa6-b
 
 Now there is two more things I would like to do before wrapping this part. Remove all the `show_debug_message()` strings and make sure the collision math is only using integers.  The `tilemap_get_at_pixel(tile_id, x + bottom_left, y + 1);` would sometimes return an incorrect response when the pixel was fractional.
 
-So before we run any collision we will subtract the fractional value from both `x` and `y`.  `frac(n)`
+So before we run any collision we will subtract the fractional value from both `x` and `y` using the functiopn: `frac(n)`
 
 > This function returns the fractional part of n, that is, the part behind the decimal dot. It will return only the decimals behind the dot of a value, so frac(3.125) will return 0.125, frac(6.921) will return 0.921, etc... - [GameMaker Manual](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/frac.htm)
 
