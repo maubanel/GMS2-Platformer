@@ -177,7 +177,7 @@ Press the <kbd>Add Event</kbd> and select a **Other | Animation End** event. So 
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Woah, that looks a lot better.
 
 ___
 
