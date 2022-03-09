@@ -63,7 +63,9 @@ So lets add these offsets above for our side wall feelers for the player in the 
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We will use the same function
+*Right click* on **Scripts** and select **New | Script** and name it `check_lateral`. This function will work for both left and right.  Lets start with getting left working.  This will take one parameter a boolean called `check_left` that wil tell the function whether to check left or right.
+
+Set the **Sprite** to `spr_foo`.We will use the same function `tilemap_get_at_pixel` to look and see if one of our player's side feelers is inside a collision tile.
 
 ![alt_text](images/checkLateral.png)
 
@@ -71,7 +73,7 @@ We will use the same function
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/collisionMath.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
