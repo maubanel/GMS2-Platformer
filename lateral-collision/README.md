@@ -139,6 +139,8 @@ Lets alter the animation logic so that the player switches between running and i
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now run around and the player changes between the run and idle animation.  
 
+https://user-images.githubusercontent.com/5504953/157441926-71430fa2-ed5f-4151-8b37-3d8ff3cd4040.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
