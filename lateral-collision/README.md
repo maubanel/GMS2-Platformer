@@ -179,6 +179,8 @@ Press the <kbd>Add Event</kbd> and select a **Other | Animation End** event. So 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Woah, that looks a lot better.
 
+https://user-images.githubusercontent.com/5504953/157444312-ec887f32-0f0d-49c2-9711-715a037fbf17.mp4
+
 ___
 
 
