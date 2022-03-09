@@ -155,6 +155,8 @@ Now the player is not running the falling animation when falling off of a platfo
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the player enters the fall animation when falling from a platform.
 
+https://user-images.githubusercontent.com/5504953/157442325-4af6193a-9685-49d0-b991-76eec8ad5121.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
