@@ -101,6 +101,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. R
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
+https://user-images.githubusercontent.com/5504953/157436945-8f8f2100-2bfa-4053-b3cf-88ae178405e0.mp4
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
