@@ -115,6 +115,7 @@ Now we want the camera to follow the player around the level.  Open up **rm_test
 
 Now we need to test all 3 feelers.  The player should not pass through a collision volume in the first three neighbouring collision tiles but fit under the fourth.  Lets set up a temporary area to test the three lateral left collisions.
 
+https://user-images.githubusercontent.com/5504953/157440491-dd1465bb-d0b9-4337-a818-e5ef2a7c90c4.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
