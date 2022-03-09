@@ -105,7 +105,9 @@ https://user-images.githubusercontent.com/5504953/157436945-8f8f2100-2bfa-4053-b
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we want the camera to follow the player around the level.  Open up **rm_test** and in **Properties** expand **viewport 0**.  Then change the **Object Following** to `obj_player` and set the **Horizontal Border** and **Vertical Border** to `200`.
+
+![have camera follow player](images/viewPortFollowing.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
