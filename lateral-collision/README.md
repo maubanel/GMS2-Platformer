@@ -73,7 +73,7 @@ Set the **Sprite** to `spr_foo`.We will use the same function `tilemap_get_at_pi
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The math is fairlty straight forward to get the player out of the collision area.  We find out which tile they are in and then go the begining of the next tile.  So if we divide the **x** position by the **tile_size** we get a fraction.  We found it up (using `ceil(n)`). We then multiply it by the tile size and it gets to the beginning of the next tile.  In this illustration tile 1 goes from 0 to 31, second from 32 to 63 and the begining of the third tile is `64`. 
+The math is fairlty straight forward to get the player out of the collision area.  We find out which tile they are in and then go the begining of the next tile.  So if we divide the **x** position by the collision **grid_size** (32) we get a fraction.  We found it up (using `ceil(n)`). We then multiply it by the tile size and it gets to the beginning of the next tile.  In this illustration tile 1 goes from 0 to 31, second from 32 to 63 and the begining of the third tile is `64`. 
 
 ![illusttration of collision math for sides](images/collisionMath.png)
 
@@ -81,7 +81,7 @@ The math is fairlty straight forward to get the player out of the collision area
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/grid_size.png)
+![alt_text](images/lateralLeftCollision.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
