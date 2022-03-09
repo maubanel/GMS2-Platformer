@@ -129,7 +129,9 @@ https://user-images.githubusercontent.com/5504953/157440757-4015332d-77d0-404d-a
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Lets alter the animation logic so that the player switches between running and idling.  They both only run if the player is on the ground and the player idles when it is not moving horizontally and is running when moving.  Lets alter this logic in **obj_player | End Step** event at the bottom **after** the collision detection.
+
+![add run anims](images/runAnim.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
