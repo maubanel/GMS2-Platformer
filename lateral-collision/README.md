@@ -113,7 +113,8 @@ Now we want the camera to follow the player around the level.  Open up **rm_test
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we need to test all 3 feelers.  The player should not pass through a collision volume in the first three neighbouring collision tiles but fit under the fourth.  Lets set up a temporary area to test the three lateral left collisions.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
