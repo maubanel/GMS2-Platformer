@@ -47,21 +47,25 @@ Now lets have the player face in the direction they are supposed to point in. If
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
-
 We have done collision detection for the feet.  Now we need to do collision detection for the sides.  We want it to check three collision zones to the left.  Now since the feet narrow and the dog's head is so large we want our side feelers to be further out so in this case it will be `x - 32` pixels away.  On the **y** axis we will be checking three 32 pixels collision zones.  The top of the bottom zone at `-31`, the top of the middle zone at `-63` and the bottom of the top zone at `-65`.  This way our side feelers will not be in the way of the ground or ceiling checks making sure that we are not doing both a ground or ceiling as well as a lateral when not wanted.  
 
 ![lateral collisoin diagram](images/lateral_collision.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
+##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
+
+So lets add these offsets above for our side wall feelers for the player in the **obj_player | Create** event.
+
+![side feeler variables in obj_player](images/sideCreate.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We will use the same function
+
+![alt_text](images/checkLateral.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
