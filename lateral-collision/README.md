@@ -163,12 +163,13 @@ https://user-images.githubusercontent.com/5504953/157442325-4af6193a-9685-49d0-b
 
 I notice one issue in the fall animation.  It has two frames where it transitions from the standing to the falling state.  So it doesn't loop from frame 0 until the end.  The loop point is at frame 3 (image_index 2).  So lets play this once then skip this frame from then onwards.
 
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Other | Animation End** event. So it will play the entire animation once then at the end skip to frame 3 (image_index 2).  And will do this only if the `spr_player_fall` animation is running.
+
+![skip first two frames on loop](images/loopEnd.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
