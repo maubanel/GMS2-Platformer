@@ -67,10 +67,9 @@ Now create a mirror of the same collisions on the left to test the four zones (f
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Check all the collision feelers and it should work correctly.
 
-
+https://user-images.githubusercontent.com/5504953/157450269-d54a530b-382b-4a18-9ba4-387abef01eef.mp4
 
 ___
-
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
