@@ -2,7 +2,7 @@
 
 ### Lateral Movement and Wall Collision II
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../)</sub>
+<sub>[previous](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -15,7 +15,9 @@ Lets add the collision for moving right.
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Now the collision on the right will be similar to the collision on the left.  Since the player's right hand side is colliding it will hit the collision volume's left side.  So we round down (`floor()`) the collision then multiply by `32` to get the begining of the cell.  We subtract 1 as we need the player to be one pixel outside the collision volume.
+
+![adjust player left when right collides illustration](images/rightCollisionExplanation.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -143,9 +145,9 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Jumping and Ceiling Collision">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../)|
+| [previous](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../)|
 |---|---|---|
