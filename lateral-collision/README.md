@@ -121,7 +121,9 @@ https://user-images.githubusercontent.com/5504953/157440491-dd1465bb-d0b9-4337-a
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Test all four collision zones to make sure that the bottom three ones stop the player and that there is not a hole in our collision detection.
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
