@@ -145,13 +145,15 @@ https://user-images.githubusercontent.com/5504953/157441926-71430fa2-ed5f-4151-8
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now the player is not running the falling animation when falling off of a platform.  Lets add one more animation state when th eplayer is not on the ground and is moving downwards.
+
+![fall animation logic](images/fallAnimLogic.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the player enters the fall animation when falling from a platform.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
