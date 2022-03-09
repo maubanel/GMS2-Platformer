@@ -81,7 +81,9 @@ The math is fairlty straight forward to get the player out of the collision area
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/lateralLeftCollision.png)
+Go back to `check_lateral` **Script** and add a check to make sure that you are only checking the left feelers if `check_left` is true when passed to the function. Then after check to see if there is a collision in any of the feelers (will cover bottom 96 pixels) and if there is we will move the player to the right edge of the neighbouring tile.
+
+![set x to neighbouring tile](images/lateralLeftCollision.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
