@@ -89,7 +89,9 @@ Go back to `check_lateral` **Script** and add a check to make sure that you are 
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to call the function.  So open **obj_player | End Step** event and a call to the `check_lateral(check_left)` function right after you check for the ground collision.
+
+![call check_lateral function](images/checkLeftPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
