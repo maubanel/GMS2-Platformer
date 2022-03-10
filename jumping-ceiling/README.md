@@ -138,7 +138,9 @@ https://user-images.githubusercontent.com/5504953/157647158-262fc276-8544-4d88-9
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+I think I would like to keep a bit of ceiling friction.  Sliding the head along the ceiling is kind of fun.  What we will do is have that collision slow down the player by 20% each collision frame, making gravity take over much faster.
+
+![adjust vspeed on ceiling collision](images/reduceCeilingFriction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
