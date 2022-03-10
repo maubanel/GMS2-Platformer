@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/5504953/157585633-337765c2-efb2-4b5f-9
 
 Now open up the jump animation.  Make sure the first two frames is the inbetween of going from standing to jumping.  It loops from the 2nd frame onwards just like the fall animation.
 
-
+https://user-images.githubusercontent.com/5504953/157586295-98232f42-187d-4b56-b78a-ab9f8ee03b40.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
