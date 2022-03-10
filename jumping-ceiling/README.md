@@ -65,6 +65,8 @@ Open up **obj_player | End Step** event and add to the bottom a check for not be
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will see different animations for jumping versus falling.
 
+https://user-images.githubusercontent.com/5504953/157645417-7015e161-9ba0-4b32-a8ea-45145b51d978.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
