@@ -33,6 +33,8 @@ Move the **Step** event and add to the bottom a check for the space bar and add 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the jump button.  Notice though that you do not collide with ceilings.
 
+https://user-images.githubusercontent.com/5504953/157585633-337765c2-efb2-4b5f-9a5d-006cff9f1373.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
