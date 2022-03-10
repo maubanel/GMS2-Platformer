@@ -128,7 +128,9 @@ Now lets change that into code.  Open up `check_ceiling` and add a check to see 
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Place a collision platfrom one grid piece above the player's head.
+
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the player collides.  But the player gets "stuck" on the ceiling as it takes a while for gravity to reverse the upwards force especially on a short jump.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
