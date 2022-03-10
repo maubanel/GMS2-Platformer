@@ -23,7 +23,9 @@ Open up **obj_player | Create** event and add a variable to restrict the double 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we want to add the double jump.  Open up **obj_player | Step** event and add after the ground jump a check to see if `can_double_jump` is `true` **AND** that the player is moving up - as I don't want the player to be able to double jump when they are falling.  We then apply another upwards force and turn `can_double_jump` to `false` preventing a second air jump.
+
+![double jump logic](images/doubleJumpLogic.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
