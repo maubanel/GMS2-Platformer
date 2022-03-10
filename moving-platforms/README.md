@@ -47,7 +47,9 @@ Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Then check to
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Open up **rm_test** and add another **Instance** layer and call it
+
+![alt_text](images/addPlatformToLevel.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
