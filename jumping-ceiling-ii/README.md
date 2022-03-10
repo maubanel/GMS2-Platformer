@@ -47,7 +47,8 @@ https://user-images.githubusercontent.com/5504953/157655536-341dd4ac-2567-459d-a
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and look for collision issues. I see one major problem when I am moving diagonally upwards and feel I am not going to make the jump the ground collision lifts me up.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
