@@ -90,7 +90,7 @@ Now lets play the game as we would normally.  Open up **rm_test** and turn off t
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Try and test the collision thoroughly.
 
 https://user-images.githubusercontent.com/5504953/157655400-f3263f7d-d63e-47fd-8513-64a74faef70c.mp4
-![alt_text](images/.png)
+
 
 ___
 
