@@ -23,7 +23,9 @@ Download [jumpPlatformSourceArt.png](images/jumpPlatformSourceArt.png). *Right c
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **Objects** and select **New | Object** and name it `obj_platform`. Set the **Sprite** to `spr_platform`. 
+
+![create obj_platform with platform spriate](images/objPlatform.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
