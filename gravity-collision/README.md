@@ -180,27 +180,22 @@ Now we need to:
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will see that the player does stop and reposition. The problem is that we are continuing to increase the gravity without restricting it.  So eventually the vspeed is larger than the thickness of the collision volume and player falls through.
 
 https://user-images.githubusercontent.com/5504953/157239663-279ce28e-620e-4b28-b589-a0af6a9c5593.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 So when we make the ground adjustment we know the player is no longer falling.  So we can make the `vspeed` equal to `0` as they are no longer going down.
 
 ![0 out vspeed](images/addVSpeed.png)
 
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will notice the player does not fall through the ground.
 
