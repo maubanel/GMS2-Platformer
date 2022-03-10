@@ -69,7 +69,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The top feelers will be a bit further apart from the feet.  The ears are sticking up so we will use the middle of the ear as the point for checking for ceiling.  This is +-12 pixels from the center.
+The top feelers will be a bit further apart from the feet.  The ears are sticking up so we will use the middle of the ear as the point for checking for ceiling.  This is +-12 pixels from the center. We are only making the player 96 pixels high so the ears will clip behind the platforms.
 
 ![illustration of top feelers](images/topFeelers.png)
 
@@ -77,32 +77,42 @@ The top feelers will be a bit further apart from the feet.  The ears are stickin
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_polayer | Create** event and add two variables for the x offset of the collision.
+
+![x offset variables](images/topLeftRightOff.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Scripts** and select **New | Script** and name it `obj_foo`. Set the **Sprite** to `check_ceiling`. The first thing we will check for is if we are falling downwards.  If we are falling down, there is no point in checking for ceiling collisions.
+
+![check for going down in ceiling collision](images/checkCeilingFunc.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now lets check to see if either of the two top feelers are colliding with a collision tile.
+
+![check top feelers](images/checkTopFeelers.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now if there are no collisions then return a false.  There is nothing else to do.
+
+![return false if no collision](images/checkIfNoCollision.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we do the same thing as the other collisions by taking the ceiling of the current y position (we are checking the feet so dpon't need to add 96 then subtract 96 to check the ceiling feelers). We then multiply it by 32 and it will return the next pixel in the grid square below.
+
+![sets grid square below diagram](images/collisionMath.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
