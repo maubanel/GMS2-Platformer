@@ -88,7 +88,7 @@ Move platform back to its starting position.  Move the player next to the platfo
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the platform moves up to its target and there is no player platfrom collision.
 
 https://user-images.githubusercontent.com/5504953/157665732-25129c80-e4d6-4937-bc0f-6d0a0d7a34b6.mp4
 
