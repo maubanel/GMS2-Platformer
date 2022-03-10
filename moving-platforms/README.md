@@ -80,7 +80,9 @@ Now move the platform to its final position.  Record its end position in **end_x
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Move platform back to its starting position.  Move the player next to the platform.
+
+![move platfrom back to begining](images/movePlatform.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
