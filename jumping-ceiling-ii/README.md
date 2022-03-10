@@ -63,15 +63,17 @@ So what is happening is that the player is moving up diagonally and the ground f
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now that the player can double jump
+Now that the player can double jump we can add an area above to check collisions and jumping.  I made some jump platforms to an area where we can test the ground, side and jump collisions.  It has a collision volume at each height and room to get to them from the left and the right side.
 
-![alt_text](images/addCollisionJumpTestArea.png)
+![create test collision area](images/addCollisionJumpTestArea.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Add collision tiles to the new area.
+
+![add collision tiles](images/addCollisionTiles.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
