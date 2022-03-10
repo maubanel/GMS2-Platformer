@@ -132,6 +132,8 @@ Place a collision platfrom one grid piece above the player's head.
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the player collides.  But the player gets "stuck" on the ceiling as it takes a while for gravity to reverse the upwards force especially on a short jump.
 
+https://user-images.githubusercontent.com/5504953/157647158-262fc276-8544-4d88-9927-c4d32d63a591.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
