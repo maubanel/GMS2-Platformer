@@ -63,13 +63,15 @@ Open up **obj_player | End Step** event and add to the bottom a check for not be
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will see different animations for jumping versus falling.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+The top feelers will be a bit further apart from the feet.  The ears are sticking up so we will use the middle of the ear as the point for checking for ceiling.  This is +-12 pixels from the center.
+
+![illustration of top feelers](images/topFeelers.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
