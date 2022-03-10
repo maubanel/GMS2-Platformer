@@ -51,7 +51,7 @@ Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Then check to
 
 ![move to target logic](images/platformStep.png)
 
-Open up **rm_test** and add another **Instance** layer and call it `MovingPlatform`.  Drag **obj_platform** to the level and place it under the end of the platform we were at.
+Open up **rm_test** and add another **Instance** layer and call it `MovingPlatform`.  Drag **obj_platform** to the level and place it under the end of the platform we were at. Create a variable to track the direction the platform is moving in (to target or back to start), the speed the platform moves at as well as the delay of how long it waits before switching to new direction.
 
 ![add instance layer and platform to test level](images/addPlatformToLevel.png)
 
