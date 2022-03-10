@@ -30,6 +30,8 @@ In this walk through we will be working on:
 <kbd></kbd> &nbsp;&nbsp; [Lateral Movement and Wall Collision](lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)<br>
 <kbd></kbd> &nbsp;&nbsp; [Lateral Movement and Wall Collision II](lateral-collision-ii/README.md#user-content-lateral-movement-and-wall-collision-ii)<br>
 <kbd></kbd> &nbsp;&nbsp; [Jumping and Ceiling Collision](jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision)<br>
+<kbd></kbd> &nbsp;&nbsp; [Jumping and Ceiling Collision II](jumping-ceiling-ii/README.md#user-content-jumping-and-ceiling-collision-ii)<br>
+
 
 <!-- LICENSE -->
 ## License
