@@ -51,13 +51,17 @@ Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Then check to
 
 ![move to target logic](images/platformStep.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
+
 Open up **rm_test** and add another **Instance** layer and call it `MovingPlatform`.  Drag **obj_platform** to the level and place it under the end of the platform we were at. Create a variable to track the direction the platform is moving in (to target or back to start), the speed the platform moves at as well as the delay of how long it waits before switching to new direction.
 
 ![add instance layer and platform to test level](images/addPlatformToLevel.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Double click the platform in the level and press the **Variables** button.  Click the pencil icon on **start_x** and **start_y**. Put in the room x and y position that you have. In my case it is an **x** of `2048` and **y** of `1376`.
 
@@ -65,17 +69,11 @@ Double click the platform in the level and press the **Variables** button.  Clic
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now move the platform to its final position.  Record its end position in **end_x** and **end_y**.
 
 ![add end position](images/endPlatform.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
