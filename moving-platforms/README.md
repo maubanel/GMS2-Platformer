@@ -15,9 +15,9 @@ Now another key feature of platformers is platforms that move.  We do have an is
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Download [jumpPlatformSourceArt.png](images/jumpPlatformSourceArt.png). *Right click* on **Sprites** and select **New | Sprite** and name it `spr_platform`.
+Download [jumpPlatformSourceArt.png](images/jumpPlatformSourceArt.png). *Right click* on **Sprites** and select **New | Sprite** and name it `spr_platform`. Import the above image.
 
-![alt_text](images/.png)
+![import image to spr_platform](images/sprPlatforms.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
