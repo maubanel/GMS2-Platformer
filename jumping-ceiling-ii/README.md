@@ -54,7 +54,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game an
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+So what is happening is that the player is moving up diagonally and the ground feelers are entering the collision zone while moving up.  Now we want the lateral collision to run but instead it lifts the player up on the platform.  This is an easy fix.  Open up `check_for_ground` and send false if the player is moving up.
+
+![don't check ground when moving up](images/groundOnlyUp.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
