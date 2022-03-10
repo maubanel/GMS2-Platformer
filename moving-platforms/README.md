@@ -31,7 +31,9 @@ Download [jumpPlatformSourceArt.png](images/jumpPlatformSourceArt.png). *Right c
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the **Variable Definitions** button on **obj_platform** as we want to have different start and end points on each platform in the level.  If we set it in the create event we would only be able to have one begining and end position.  We only need to use ingegers as you can't be placed in between pixels in the game.
+
+![add four integers for begining and end](images/addFourIntegers.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
