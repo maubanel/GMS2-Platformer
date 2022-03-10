@@ -47,15 +47,15 @@ Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Then check to
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-Open up **rm_test** and add another **Instance** layer and call it
+Open up **rm_test** and add another **Instance** layer and call it `MovingPlatform`.  Drag **obj_platform** to the level and place it under the end of the platform we were at.
 
-![alt_text](images/addPlatformToLevel.png)
+![add instance layer and platform to test level](images/addPlatformToLevel.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addStartVars.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
