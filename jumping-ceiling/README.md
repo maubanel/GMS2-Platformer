@@ -47,13 +47,17 @@ https://user-images.githubusercontent.com/5504953/157586295-98232f42-187d-4b56-b
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Open up the **obj_player | Animation End** and a loop from the second frame onwards.  We can use the same logic as for the fall animation just add this logic for both the fall and the jump animation.
+
+![player jump animation loop](images/playerJumpES.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_player | End Step** event and add to the bottom a check for not being on the ground and with a negative `vspeed` (moving updwards).  We will then switch to the `spr_player_jump` animation.
+
+![open up end step and play jump animation](images/endStepJump.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
