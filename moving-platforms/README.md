@@ -90,7 +90,7 @@ Move platform back to its starting position.  Move the player next to the platfo
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.
 
-
+https://user-images.githubusercontent.com/5504953/157665732-25129c80-e4d6-4937-bc0f-6d0a0d7a34b6.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
