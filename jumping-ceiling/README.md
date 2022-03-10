@@ -79,7 +79,7 @@ The top feelers will be a bit further apart from the feet.  The ears are stickin
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **obj_polayer | Create** event and add two variables for the x offset of the collision.
+Open up **obj_polayer | Create** event and add two variables for the x offsets of the collision.
 
 ![x offset variables](images/topLeftRightOff.png)
 
