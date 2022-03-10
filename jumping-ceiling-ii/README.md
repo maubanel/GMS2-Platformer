@@ -31,7 +31,9 @@ Now we want to add the double jump.  Open up **obj_player | Step** event and add
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to set the double jump back to true so the player can double jump again next time.  The best place to do this is when the player collides with the floor.  Go the the **obj_player | End Step** and look for `on_ground` as well as `can_double_jump` being `false`.  If both of these are `true` then set `can_double_jump` to `true` to reset this switch.
+
+![set double jump to true](images/setDoubleJT.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
