@@ -96,7 +96,9 @@ https://user-images.githubusercontent.com/5504953/157665732-25129c80-e4d6-4937-b
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we need to add a delay then return to the start.  So lets check to see if the `dist` variable is false (`0`) then we know that you have arrived to the destination.  The `alarm[n]` is set to -1 by default.  We only want to call it once otherwise it will keep moving the alarm forward.  In **Step Events** it is good practice to wrap an alarm in a conditional `if (alarm[0] < 0)`.  Then if both are true we trigger the alarm.
+
+![call alarm when arrived at end](images/addAlarmPlatf.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
