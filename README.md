@@ -8,10 +8,6 @@ This tutorial is a a very basic starting point that can be built upon.  It is NO
 
 All artwork except for the palyer sprite needed for the game is supplied in this tutorial.  
 
-In this walk through we will be working on:
-
-* 
-
 * Tested on GameMake Studio2.3.5.589
 * [GitHub Account](https://github.com) (free)
 * [GitHub Desktop](https://desktop.github.com)
