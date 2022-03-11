@@ -32,6 +32,7 @@ In this walk through we will be working on:
 <kbd></kbd> &nbsp;&nbsp; [Jumping and Ceiling Collision](jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision)<br>
 <kbd></kbd> &nbsp;&nbsp; [Jumping and Ceiling Collision II](jumping-ceiling-ii/README.md#user-content-jumping-and-ceiling-collision-ii)<br>
 <kbd></kbd> &nbsp;&nbsp; [Moving Platforms](moving-platforms/README.md#user-content-moving-platforms)<br>
+<kbd></kbd> &nbsp;&nbsp; [Moving Platforms II](moving-platforms-ii/README.md#user-content-moving-platforms-ii)<br>
 
 
 <!-- LICENSE -->
