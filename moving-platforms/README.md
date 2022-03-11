@@ -162,13 +162,17 @@ This function will return a reference to the id of the instance of the object th
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **check_for_ground**.  We need to move the code tha that moves the player up for a tile collision into the `if` condition.
+
+![move logic](images/moveIf.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets add another check if the there are no tile collisions check for a collision with an object.  If we do have a collision with either foot we need to get a link to the object instance.  Now we might only have a single valid collision.  We will store the first valid collision in `platorm_collide`.  We will then move the foot of the player (origin bottom center) to one pixel above the platform (whose origin is `0,0` or top left corner).
+
+![move player to object](images/checkPlatform.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
