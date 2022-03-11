@@ -180,11 +180,7 @@ Now lets add another check if the there are no tile collisions check for a colli
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Jump on top of the platform and you should now have ground collision!
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/157880588-36a3a062-6906-4e5a-bcc7-abb0dbd761b8.mp4
 
 ___
 
