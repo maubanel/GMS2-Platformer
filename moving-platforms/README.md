@@ -150,7 +150,13 @@ Now go to **obj_platform** and press the <kbd>Parent</kbd> button.  Assign `obj_
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to call a different function to get collisions from the platform.  We will use `collision_point(x, y, obj, prec, notme)`
+
+> Collision_point checks the point specified by the arguments x1,y1 for a collision with any instance of the object specified by the argument "obj".  - [GameMaker Manual](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions/collision_point.htm)
+
+This function will return a reference to the id of the instance of the object that contains `obj_collision_parent`.  We will pass it the same **x** and **y** fealers as we did for the tile.  We will set **prec** to false and **notme** to false (we will not collide with ourself as the player does not have the same parent).
+
+![check for foot collision with platform](images/checkFeeforForObject.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
