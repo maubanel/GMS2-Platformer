@@ -126,6 +126,8 @@ Now we add an `else` statement and do the exact same thing as the `if` except we
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The platform now goes up and down and pauses.
 
+https://user-images.githubusercontent.com/5504953/157869258-385c4e90-3087-482f-abbc-b494980eb24a.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
