@@ -105,7 +105,12 @@ Now we need to add a delay then return to the start.  So lets check to see if th
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 0** event.
+
+Now lets invert the direction of the platform.  Our switch for this is 
+`going_to_target`.  If we make it `!going_to_target`, this will change **true** to **false** or **false** to **true**. This means we do not care which direction it is going in, we will be going in the opposite direction after the not.
+
+![alt_text](images/invertDir.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
