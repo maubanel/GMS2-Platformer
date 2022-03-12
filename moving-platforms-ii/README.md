@@ -144,6 +144,8 @@ Now you can move the platform to the left to its target position and set the **e
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump on the sideways platform.  Woops the platform moves underneath the player.  We want the player to move with the platform.
 
+https://user-images.githubusercontent.com/5504953/158022971-00a35221-91c1-4392-8f0a-a3cf2802c446.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
