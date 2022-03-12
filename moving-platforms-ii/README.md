@@ -45,13 +45,15 @@ Now we need to do the same thing to the right.  We need to place the offset left
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The collision to the right works now!
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up `check_ceiling` and we will add a duplicate check of any object the player could run into. We use the same feelers distance as we did for the tiles.  We also now look for no collision acress tiles OR objects before deciding that there is no collsioin.
+
+![add check to ceiling](images/checkCeiling.png.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
