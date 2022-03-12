@@ -47,6 +47,8 @@ Now we need to do the same thing to the right.  We need to place the offset left
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The collision to the right works now!
 
+https://user-images.githubusercontent.com/5504953/158003271-ea9380de-edd4-4c50-89a8-95132e3c89a2.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
