@@ -126,7 +126,7 @@ Turn the **Collisions** view off.
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-You now should bring the moving platform to the starting point on the far right.  You can get the **Start_X**, **Start_Y** and **End_Y** based on its position.
+You now should bring the moving platform to the starting point on the far right.  You can get the **start_X**, **start_Y** and **end_Y** based on its position.
 
 ![set three points on moving platform](images/changeStartEnd.png)
 
