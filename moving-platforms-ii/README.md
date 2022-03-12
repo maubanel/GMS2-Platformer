@@ -168,14 +168,14 @@ So we now open up **check_for_ground** and in the checking for 1 pixel below gro
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will move along with the platform when standing on it.  I also tested that the platform can't crush the player into the platform horizontally (our previous code should work here).
 
-
+https://user-images.githubusercontent.com/5504953/158024490-4cf62262-32c2-4441-9a60-d5d73c80c938.mp4
 
 ___
 
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Ground Hazards">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
