@@ -95,7 +95,7 @@ Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. We want t
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now run around the platform and it only seems to reverse when crushing the player.
 
-
+https://user-images.githubusercontent.com/5504953/158018940-2dd167a8-8174-4448-b5ad-7e98043a438c.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
