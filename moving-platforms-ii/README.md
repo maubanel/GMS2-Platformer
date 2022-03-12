@@ -148,7 +148,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+When I first tried to implement the moving along platform I had some fractional errors of the player not being quite on top of the ground.  With precision errors in floats the player drifted downwards and caused issues.  This is solved by making sure that when we are on the ground that `vspeed` is still `0` and that the player is not between pixels (the number is NOT fractional).  Open up **obj_player | End Step**.
+
+![remove fractional error on ground in end_step](images/fractionalError.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
