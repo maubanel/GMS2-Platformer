@@ -55,7 +55,7 @@ https://user-images.githubusercontent.com/5504953/158003271-ea9380de-edd4-4c50-8
 
 Now open up `check_ceiling` and we will add a duplicate check of any object the player could run into. We use the same feelers distance as we did for the tiles.  We also now look for no collision acress tiles OR objects before deciding that there is no collsioin.
 
-![add check to ceiling](images/checkCeiling.png.png)
+![add check to ceiling](images/checkCeiling.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -71,7 +71,6 @@ Now we will have to adjust the player to just below the sprite we have collided 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we collide with the top of the platform.  The issue now is that the platform will push the player into the ground if the player is under it and cause a pretty glichy bug.
 
-https://user-images.githubusercontent.com/5504953/158003650-9eaec041-21c9-4003-9b49-ea82221b46ff.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
