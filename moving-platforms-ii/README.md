@@ -79,13 +79,15 @@ https://user-images.githubusercontent.com/5504953/158018492-11bbd466-97cd-4c4b-b
 
 Now we will reverse the direction of the platform if it collides with the player.  So we will add a check in the platfrom to see if the player is within 92 pixels and still collides with the platformer then reverse direction.  We will need to do this in an end step and access the distance variable.  Open up **obj_platform | Step** event and chnage the `dist` variable from a local `var` to a normal variable that will persist until the end step.
 
-![alt_text](images/.png)
+![alter dist from local var to normal var](images/alterDist.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. We want to look to after the platform has moved to the new position.  We will use `instance_place(x, y, obj)` to determine if there is still a collision between the player and the platform.  Now there is no guarantee that the player will run its collision detection and move the player out of the way and when this collision will run as both are in the `end step` event. So we will only reverse direction if the collision volume is within 92 pixels (the player is 92 pixels tall).  This should stop the platform from pushing the player out of the bottom of the level.
+
+![reverse direction](images/endStepPlatform.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
