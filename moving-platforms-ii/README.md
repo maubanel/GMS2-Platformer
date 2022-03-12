@@ -102,7 +102,9 @@ https://user-images.githubusercontent.com/5504953/158018940-2dd167a8-8174-4448-b
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Turn on the **Collision** layer so we can see it.  At the right side at two jump platforms that you need to double jump to (three blocks high).  Add another moving platform to take you from one end to another.
+
+![add jump area](images/jumpArea.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
