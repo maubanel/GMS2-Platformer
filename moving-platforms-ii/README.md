@@ -12,7 +12,6 @@ Lets get collision detection working on objects.
 
 ---
 
-
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
  Open up `check_for_ground`. Now we need to also check in the `if (on ground)` section to see if the pixel below is on ground of a moving platform.  We look 1 pixel below then expand the check for being right on top of the ground.
@@ -32,6 +31,8 @@ Open up `check_lateral` and lets add collision for moving laterally.  We check l
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run into the moving platform from the left and collisions should work.
+
+https://user-images.githubusercontent.com/5504953/158003032-03403cc7-d4a9-4458-b8d7-2fa2d650f690.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
