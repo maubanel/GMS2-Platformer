@@ -37,7 +37,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. R
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to do the same thing to the right.  We need to place the offset left side one pixel to the left of the playeform.
+
+![add right collision](images/adjustToRight.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
