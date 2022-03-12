@@ -102,7 +102,7 @@ https://user-images.githubusercontent.com/5504953/158018940-2dd167a8-8174-4448-b
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Turn on the **Collision** layer so we can see it.  At the right side at two jump platforms that you need to double jump to (three blocks high).  Add another moving platform to take you from one end to another.
+Turn on the **Collision** layer so we can see it.  Select the **Platform** tile layer and on the right side of the room add two jump platforms that you need to double jump to (three blocks high).  Add another moving platform to take you from one end to another.
 
 ![add jump area](images/jumpArea.png)
 
@@ -110,25 +110,33 @@ Turn on the **Collision** layer so we can see it.  At the right side at two jump
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now go back to the **Collision** layer and add the collisions to these two new platforms.
+
+![add collision to new platforms](images/addCollisions.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Turn the **Collisions** view off.
+
+![turn collisions off](images/addCollisions.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+You now should bring the moving platform to the starting point on the far right.  You can get the **Start_X**, **Start_Y** and **End_Y** based on its position.
+
+![set three points on moving platform](images/changeStartEnd.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now you can move the platform to the left to its target position and set the **end_x**.
+
+![set end_x](images/setEndX.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
