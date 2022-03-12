@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Lets add some ground hazards to the game.  Lets rationalize whey we have the moving platform. Lets have it move over ground that damages the player.  So we will need to add health to the player and display it in the HUD as well.
 
 <br>
 
