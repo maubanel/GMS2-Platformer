@@ -61,13 +61,16 @@ Now open up `check_ceiling` and we will add a duplicate check of any object the 
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we will have to adjust the player to just below the sprite we have collided with to get into the right space just before the collision.  We will also use the same speed tapering that we did by removing 20% of the vertical speed if the player is moving up.
+
+![adjust player](images/checkForObjCol.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we collide with the top of the platform.  The issue now is that the platform will push the player into the ground if the player is under it and cause a pretty glichy bug.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
