@@ -120,7 +120,7 @@ Now go back to the **Collision** layer and add the collisions to these two new p
 
 Turn the **Collisions** view off.
 
-![turn collisions off](images/addCollisions.png)
+![turn collisions off](images/Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game..png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
