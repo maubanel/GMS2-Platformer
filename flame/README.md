@@ -77,7 +77,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_flame_enemy | Create** event and lets add collision detection just like we did for the player.  First we need access to the tiles.
+
+![add tiles to obj_flame for collisions](images/collisionFlame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
