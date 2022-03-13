@@ -49,7 +49,7 @@ With the `fifth` variable of the result of health / 20 we will render the last h
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now play the game and take damage.  You see the heart goes from a full health all the way to none for the fifth heart.
 
-DOWNLOAD EIghtyFiveToHun VIDEO
+https://user-images.githubusercontent.com/5504953/158066446-252f35a3-5d11-4595-a89e-e1ad975b2fa0.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -65,7 +65,7 @@ Now lets do the same thing for 65% to 80%.  We will look at values beetween 15 a
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now play the game and take damage.  Look at the last two hearts working.
 
-INSERT LastTwoHearts VIDEO
+https://user-images.githubusercontent.com/5504953/158066461-06814c85-7693-4bcd-b454-1eb5ac7650fb.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -81,7 +81,7 @@ We just repeat the same formula to finish the first three hearts. Now we should 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you should be able to go from `100` per cent health to `0`. 
 
-ADD restOfHealth VIDEO
+https://user-images.githubusercontent.com/5504953/158066479-c48a4074-eb8f-472a-a3b0-051da639244d.mp4
 
 ___
 
