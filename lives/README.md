@@ -152,7 +152,9 @@ Open up **obj_player_dead | Animation End** event and call an alarm to either st
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 0** event.
+
+![alt_text](images/alarm0Dead.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
