@@ -176,7 +176,7 @@ Open up **obj_player | Alarm 0** event and put the `image_speed` back to `1`.
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/twoRemainingIssues.png)
 
 ___
 
