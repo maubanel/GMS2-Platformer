@@ -144,7 +144,9 @@ Now we are going to move the player back to where they started the level.  Open 
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_player_dead | Animation End** event and call an alarm to either start again at the begining of the level or restart the entire game.
+
+![call alarm after dying](images/pauseRestartPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
