@@ -130,6 +130,7 @@ Now in **obj_player_dead** press the <kbd>Add Event</kbd> and select a **Other |
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when the player dies the animation comes to an end.
 
+https://user-images.githubusercontent.com/5504953/158078385-48a121db-3519-431d-808b-f1ddb1bbc739.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
