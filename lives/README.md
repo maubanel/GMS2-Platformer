@@ -47,15 +47,16 @@ Press the <kbd>Resize</kbd> button again and this time select **Resize Canvas**.
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-Open up **obj_game**.  This object is best to hold variables for the entire game. Press the <kbd>Add Event</kbd> and select a **Create** event. 
+Open up **obj_game**.  This object is best to hold variables for the entire game. Press the <kbd>Add Event</kbd> and select a **Create** event. Add a variable called `p1_lives` and set it to `5`.
 
-![alt_text](images/objGameCreate.png)
+![add p1_lives to obj_game](images/objGameCreate.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up **obj_game | Draw GUI** and add to the bottom a loop that draws all the player sprites. 
+![alt_text](images/postionHud.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
