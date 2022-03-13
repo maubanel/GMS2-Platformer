@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Lets add lives to the game so that the player has finite chances to finish your levels.  We will not use hearts as we ar using this for health so we will use little pictures of the dog.
 
 <br>
 
