@@ -15,13 +15,17 @@ Lets add lives to the game so that the player has finite chances to finish your 
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-![alt_text](images/.png)
+OK, lets get smaller version of our player sprite. Right click on **spr_player_idle** and select **Duplicate**.  Call this new sprite `spr_player_hud`.
+
+![dupe idle for hud](images/dupePlayerIdle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+This is for the hud so we don't need animation. Select all but 1 frame and delete them.
+
+![delete all but one frame](images/noAnim.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
