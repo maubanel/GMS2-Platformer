@@ -129,7 +129,7 @@ Now we want to give the player a chance to get back to safety with control befor
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up **obj_player | Step** event and add a call to an alarm to give control back to player but have a safe no damage time to get out.  Check to see that the alarm is not set yet (< 0) otherwise we will not have an alarm as in a step event it will keep being set forward.
+Open up **obj_player | Step** event and add a call to an alarm to give control back to player but have a safe no damage time to get out.  Check to see that the alarm is not set yet (< 0) to avoid in a step event setting the alarm forward each frame so it never ends.
 
 ![call alarm 1](images/addAlarm1.png)
 
