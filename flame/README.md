@@ -111,7 +111,7 @@ Open up **obj_player** and add a **Collision | obj_flame_enemy** event.  This wi
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/158081420-ed83b3a2-f1e8-452a-9583-55d431ab16e4.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
