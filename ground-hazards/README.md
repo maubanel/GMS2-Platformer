@@ -105,7 +105,7 @@ Now open up **obj_player | Step** event.  We don't want you to control the playe
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now in **obj_player | Step** event add some logic after the `play` state to deal with the `hit` state. We need to add a `vspeed` to simulate gravity as the gravity is not running due to the state.  Also, lets flash the player so that they are not opaque.  We get the sine of time.  Remember sine returns a value between -1 and 1.  So we add 1.2 so we get a value of .2 to 2.2.  We then devide it by 4 which would give us a range of .05 to .55.  This will flash a mostly transparent player.
+Now in **obj_player | Step** event add some logic after the `play` state to deal with the `hit` state. We need to add a `vspeed` to simulate gravity as the gravity is not running due to the fact that gravity runs in the play state.  Also, lets flash the player so that they are not opaque.  We get the sine of time.  Remember sine returns a value between -1 and 1.  So we add 1.2 so we get a value of .2 to 2.2.  We then devide it by 4 which would give us a range of .05 to .55.  This will flash a mostly transparent player.
 
 ![bring player down and flash](images/bringPlayerDown.png)
 
