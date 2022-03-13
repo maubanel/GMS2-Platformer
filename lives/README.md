@@ -47,7 +47,9 @@ Press the <kbd>Resize</kbd> button again and this time select **Resize Canvas**.
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Open up **obj_game**.  This object is best to hold variables for the entire game. Press the <kbd>Add Event</kbd> and select a **Create** event. 
+
+![alt_text](images/objGameCreate.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
