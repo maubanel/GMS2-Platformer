@@ -32,6 +32,7 @@ All artwork except for the palyer sprite needed for the game is supplied in this
 <kbd></kbd> &nbsp;&nbsp; [Ground Hazards](ground-hazards/README.md#user-content-ground-hazards)<br>
 <kbd></kbd> &nbsp;&nbsp; [Health Bar](health-bar/README.md#user-content-health-bar)<br>
 <kbd></kbd> &nbsp;&nbsp; [Lives](lives/README.md#user-content-lives)<br>
+<kbd></kbd> &nbsp;&nbsp; [Flame Enemy](flame/README.md#user-content-flame-enemy)<br>
 
 <!-- LICENSE -->
 ## License
