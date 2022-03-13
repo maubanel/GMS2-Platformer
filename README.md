@@ -30,6 +30,8 @@ All artwork except for the palyer sprite needed for the game is supplied in this
 <kbd></kbd> &nbsp;&nbsp; [Moving Platforms](moving-platforms/README.md#user-content-moving-platforms)<br>
 <kbd></kbd> &nbsp;&nbsp; [Moving Platforms II](moving-platforms-ii/README.md#user-content-moving-platforms-ii)<br>
 <kbd></kbd> &nbsp;&nbsp; [Ground Hazards](ground-hazards/README.md#user-content-ground-hazards)<br>
+<kbd></kbd> &nbsp;&nbsp; [Health Bar](health-bar/README.md#user-content-health-bar)<br>
+<kbd></kbd> &nbsp;&nbsp; [Lives](health-bar/README.md#user-content-health-bar)<br>
 
 <!-- LICENSE -->
 ## License
