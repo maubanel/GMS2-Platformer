@@ -79,13 +79,17 @@ Lets run the death animation when the player loses all its health.  Open up **ob
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/healthSubtraction.png)
+At the bottom of the **obj_player | Step** event in the `play` section add a check for health.  If it is less or equal to `0` then run an alarm to switch states in a third of a second and change the state to `dead` so player cannot move the player anymore. If the player has more lives left subtract one.
+
+![when health is zero run alarm and change to dead state](images/healthSubtraction.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Objects** and select **New | Object** and name it `obj_player_dead`. Set the **Sprite** to `spr_player_dead`.
+
+![add obj_player_dead and relevant sprite](images/objDead.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
