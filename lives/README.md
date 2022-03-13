@@ -188,6 +188,8 @@ Also in **obj_player_dead | Create** event we will make sure the player is no lo
 
 Set the lives to `2` and player health to `10` so we can quickly test the work. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we restart the level when there is more than one life and the game when the last life is spent.
 
+https://user-images.githubusercontent.com/5504953/158079825-b3e7884b-e8e9-4ffb-bc73-cdffd3e4afcf.mp4
+
 ___
 
 
