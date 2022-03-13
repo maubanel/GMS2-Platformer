@@ -31,7 +31,9 @@ This is for the hud so we don't need animation. Select all but 1 frame and delet
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Resize</kbd> button then change the 
+
+![alt_text](images/pressResize.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
