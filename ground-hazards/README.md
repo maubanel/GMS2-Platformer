@@ -15,25 +15,33 @@ Lets add some ground hazards to the game.  Lets rationalize whey we have the mov
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-![alt_text](images/.png)
+OK, let import some artwork for the spikes that the player should not fall on at [spr_spikes.png]()images/spr_spikes.png).  *Right click* on **Sprites** and select **New | Sprite** and name it `spr_spikes`. Press the <kbd>Import</kbd> and select the above image file.
+
+![download spr_spikes.png and assign to sprite](images/importSpikes.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **Objects** and select **New | Object** and name it `obj_spikes`. Set the **Sprite** to `spr_spikes`.
+
+![add obj_spikes and assign sprite](images/objSpikes.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to damage the player when they hit the spikes.  We will create a `p1_health` variable to store the health of the player.  We will also create a state machine called `player_states` with two states `play` and `hit`. 
+
+![player state and health in obj_player create](images/playerCreateStates.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Collision | obj_spikes** event. Then lets do 5 points damage and switch state to hit.
+
+![alt_text](images/switchStatesOnCollision.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
