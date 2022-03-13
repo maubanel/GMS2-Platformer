@@ -17,7 +17,7 @@ Now lets add a flame enemy that goes between two portions of the level.
 
 Download [spr_flame_enemy.png](images/spr_flame_enemy.png) to add as our final enemy. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_flame_enemy`. Press the <kbd>Import</kbd> button and import `spr_flame_enemy.png`.
 
-![alt_text](images/.png)
+![import spr_flame_enemy.png into a sprite](images/sprFlameEnemy.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
