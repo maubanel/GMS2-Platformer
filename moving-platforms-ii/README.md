@@ -33,6 +33,8 @@ Open up `check_lateral` and lets add collision for moving laterally.  We check l
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run into the moving platform from the left and collisions should work.
 
+https://user-images.githubusercontent.com/5504953/158065724-25ba6232-cbf7-47e5-aca9-6403b02cab70.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
