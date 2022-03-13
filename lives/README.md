@@ -39,7 +39,7 @@ Press the <kbd>Resize</kbd> button then change the **Width** and **Height** to `
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Resize</kbd> button again and this time select **Canvas**.
+Press the <kbd>Resize</kbd> button again and this time select **Resize Canvas**. Set the **Width** and **Height** to `32` and push the bottom center arrow to keep the bottom of the sprite (the feet are at the bottom and we don't want them cut off). Press the <kbd>Apply</kbd> button.
 
 ![alt_text](images/reScale.png)
 
