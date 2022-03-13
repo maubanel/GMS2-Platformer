@@ -103,9 +103,9 @@ https://user-images.githubusercontent.com/5504953/158081243-8f2180e8-579c-40ca-a
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Open up **obj_player** and add a **Collision | obj_flame_enemy** event.  This will look like the collision with the spikes.  We will
+Open up **obj_player** and add a **Collision | obj_flame_enemy** event.  This will look like the collision with the spikes.  We will check that we are in `play` state and check if we can take damage.  If we can we will run **alarm 0**, take 10 points health damage and change to `hit` state.
 
-![alt_text](images/damageToPlayer.png)
+![add alarm, and damage to obj_player flame collision event](images/damageToPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
