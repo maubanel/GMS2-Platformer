@@ -31,9 +31,9 @@ Download [spr_flame_enemy.png](images/spr_flame_enemy.png) to add as our final e
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to **rm_test** and selec the 
+Go back to **rm_test** and select the 
 
-![alt_text](images/areaForFlame.png.png)
+![alt_text](images/areaForFlame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
