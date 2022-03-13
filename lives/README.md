@@ -55,20 +55,25 @@ Open up **obj_game**.  This object is best to hold variables for the entire game
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-Now open up **obj_game | Draw GUI** and add to the bottom a loop that draws all the player sprites. 
+Now open up **obj_game | Draw GUI** and add to the bottom a loop that draws all the player sprites. We need a distance between sprites with a margin, so we will separate the player icon by 40 pixels.  We also need to increment our **x** position with that.  We will use the `draw_sprite(sprite, subimg, x, y)` to draw the player to the screen.
+
 ![alt_text](images/postionHud.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you should see 5 lives under the health!
+
+![lives in HUD](images/livesHud.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Lets run the death animation when the player loses all its health.  Open up **obj_player | Create** event and add `dead` to `player_state`.
+
+![add dead player state](images/deadState.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
