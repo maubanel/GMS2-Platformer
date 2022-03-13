@@ -152,9 +152,9 @@ Open up **obj_player_dead | Animation End** event and call an alarm to either st
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 0** event.
+Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 0** event. If ther are lives left, transform this instance back to **obj_player** and put it at the begining of the level.  Otherwise restart the entire game.
 
-![alt_text](images/alarm0Dead.png)
+![place player back at beginging of level or restart game](images/alarm0Dead.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
