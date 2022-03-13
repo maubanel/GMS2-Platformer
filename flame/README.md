@@ -23,7 +23,9 @@ Download [spr_flame_enemy.png](images/spr_flame_enemy.png) to add as our final e
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **Objects** and select **New | Object** and name it `obj_flame_enemy`. Set the **Sprite** to `spr_flame_enemy`.
+
+![add obj_flame_enemy and sprite](images/objFlame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
