@@ -106,6 +106,8 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 3** event.  Change t
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and notice that the player dies when you run out of health.  But the animation just keeps playing and playing.
 
+https://user-images.githubusercontent.com/5504953/158077134-ba1763e4-820e-4c06-8d2a-ce6dc1908039.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
