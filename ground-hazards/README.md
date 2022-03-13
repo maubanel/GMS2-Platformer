@@ -74,7 +74,7 @@ Create a new **Instance** layer in **rm_test** called `Misc`.  Drag a copy of **
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now fall on the spikes.  They do 5 points of damage but then nothing happens as your state changes and you can still control the player.
 
-ADD FALLONTOSPIKES video.
+https://user-images.githubusercontent.com/5504953/158066042-c7c6ad18-00ce-4bf2-bc23-98b09cf8515a.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
