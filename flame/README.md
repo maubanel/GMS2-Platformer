@@ -73,6 +73,8 @@ In **rm_test** move the player to start next to the flame.
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You should see the flame keep moving right.  But we want it to have collision detection so it stays in its zone.
 
+https://user-images.githubusercontent.com/5504953/158081108-26470650-8152-45c8-8719-fc9b36e827c4.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
