@@ -176,7 +176,17 @@ Open up **obj_player | Alarm 0** event and put the `image_speed` back to `1`.
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/twoRemainingIssues.png)
+I have some concerns about the player being in the air when they are hit.  So in **obj_player | Alarm 3** we add a check to see if they are on the ground.  If not we call the alarm again in 2 frames.  This allows the player to fall to the ground before switching to the death animation.  
+
+Also in **obj_player_dead | Create** event we will make sure the player is no longer moving so we will set their speed to `0`.
+
+![fix two outstanding issues](images/twoRemainingIssues.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Set the lives to `2` and player health to `10` so we can quickly test the work. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we restart the level when there is more than one life and the game when the last life is spent.
 
 ___
 
