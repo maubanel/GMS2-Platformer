@@ -31,7 +31,7 @@ OK, let import some artwork for the spikes that the player should not fall on at
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to damage the player when they hit the spikes.  We will create a `p1_health` variable to store the health of the player.  We will also create a state machine called `player_states` with two states `play` and `hit`. 
+Now we need to damage the player when they hit the spikes.  We will create a `p1_health` variable to store the health of the player.  We will also create a state machine called `player_states` with two states `play` and `hit`.  For this we use an **enumerator**.  This is a constant (can't be changed at runtime) and globally accessible.  It is the same things as putting `player_states.play `as `0` and `player_state.hit` as `1`. It allows us to use words to describe a list as opposed to simple numbers (but those words get turned into numbers when compiled).
 
 ![player state and health in obj_player create](images/playerCreateStates.png)
 
