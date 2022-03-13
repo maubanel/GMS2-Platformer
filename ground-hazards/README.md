@@ -15,7 +15,7 @@ Lets add some ground hazards to the game.  Lets rationalize whey we have the mov
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-OK, let import some artwork for the spikes that the player should not fall on at [spr_spikes.png]()images/spr_spikes.png).  *Right click* on **Sprites** and select **New | Sprite** and name it `spr_spikes`. Press the <kbd>Import</kbd> and select the above image file.
+OK, let import some artwork for the spikes that the player should not fall on at [spr_spikes.png](images/spr_spikes.png).  *Right click* on **Sprites** and select **New | Sprite** and name it `spr_spikes`. Press the <kbd>Import</kbd> and select the above image file.
 
 ![download spr_spikes.png and assign to sprite](images/importSpikes.png)
 
