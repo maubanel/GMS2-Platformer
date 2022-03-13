@@ -118,7 +118,9 @@ Open up **obj_player_dead**.  Press the <kbd>Add Event</kbd> and select a **Crea
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now in **obj_player_dead** press the <kbd>Add Event</kbd> and select a **Other | Animation End** event. WHen you reach the final frame, hold on it.
+
+![animation end](images/animEndDead.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
