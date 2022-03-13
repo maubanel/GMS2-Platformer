@@ -168,7 +168,9 @@ https://user-images.githubusercontent.com/5504953/158079190-d6208230-8543-4f35-a
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/setAnimSpeedBack.png)
+Open up **obj_player | Alarm 0** event and put the `image_speed` back to `1`.
+
+![reset image speed in alarm 0 of player dead](images/setAnimSpeedBack.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
