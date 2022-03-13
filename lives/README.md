@@ -95,14 +95,16 @@ At the bottom of the **obj_player | Step** event in the `play` section add a che
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 3** event.  Change the `state` to `player_state.dead`.  Then the player can no longer move the player.
+
+![alarm 3 player dead state](images/alarm3Dead.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and notice that the player dies when you run out of health.  But the animation just keeps playing and playing.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
