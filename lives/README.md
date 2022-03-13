@@ -160,7 +160,8 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 0** event. If ther a
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now this works perfectly except that when the player chnages back their animations are still frozen.  This is a bug!
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
