@@ -31,39 +31,47 @@ Download [spr_flame_enemy.png](images/spr_flame_enemy.png) to add as our final e
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to **rm_test** and select the 
+Go back to **rm_test** and select the **Platforms** layer and draw in an area for the flame to go back and forth in.
 
-![alt_text](images/areaForFlame.png)
+![area for flame to live in level](images/areaForFlame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Turn on the collision layer to set colliders. Wherever there is a missing collision add one to the level.
+
+![set collision volumes](images/setColliders.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now select the **Hazards** layer and add **obj_flame_enemy** to this area where they can go back and forth.
+
+![alt_text](images/addFlameToHazards.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up **obj_flame_enemy** and press the <kbd>Add Event</kbd> and select a **Create** event. Make the flame go right.
+
+![make flame go right in create of flame](images/createObjFlame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+In **rm_test** move the player to start next to the flame.
+
+![move player next to flame](images/movePlayerStart.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You should see the flame keep moving right.  But we want it to have collision detection so it stays in its zone.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
