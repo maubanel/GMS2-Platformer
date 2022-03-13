@@ -115,7 +115,7 @@ Now in **obj_player | Step** event add some logic after the `play` state to deal
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now get damaged and the player pops and and flashes.  Now we need to return to player control then give you time to get back to safety before inflicting damage again.
 
-ADD EXPORTDAMAGEPLAYER VIDEO
+https://user-images.githubusercontent.com/5504953/158066151-69292342-1b6a-479d-91a2-7a6c5fe81932.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -147,7 +147,7 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 1** event. Set `can_
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have time to escape.  The next step is to go back to normal play state where you can take damage again.
 
-ADD DamageSpikes video
+https://user-images.githubusercontent.com/5504953/158066203-609648b7-5e06-4cb1-835e-667ecf772a52.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -179,7 +179,8 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 2** event. Now set `
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have the full cycle working.  You have the player and they can take damage.
 
-ADD FullTakingDamage MOVIE
+https://user-images.githubusercontent.com/5504953/158066174-cb14bd3c-b78b-4081-8c0d-c80022f2d86b.mp4
+
 
 ___
 
