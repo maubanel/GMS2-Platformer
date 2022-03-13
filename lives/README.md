@@ -162,7 +162,7 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 0** event. If ther a
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now this works perfectly except that when the player chnages back their animations are still frozen.  This is a bug!
 
-Uploading AnimationBugAfterDying.mp4…
+https://user-images.githubusercontent.com/5504953/158079190-d6208230-8543-4f35-afbb-751c76bc8405.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
