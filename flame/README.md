@@ -103,7 +103,9 @@ https://user-images.githubusercontent.com/5504953/158081243-8f2180e8-579c-40ca-a
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_player** and add a **Collision | obj_flame_enemy** event.  This will look like the collision with the spikes.  We will
+
+![alt_text](images/damageToPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
