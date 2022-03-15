@@ -90,6 +90,8 @@ Why did we get this error?  We have a variable declared in the parent so **obj_p
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Test it again and it still collides and this time with no error!
 
+https://user-images.githubusercontent.com/5504953/158474701-90a60029-898d-4674-b63a-df88873f9a04.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
