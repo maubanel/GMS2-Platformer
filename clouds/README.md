@@ -111,7 +111,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **check_for_ground** and before you adjust the object collision accept it if `can_jump_through` is false or if `can_jump_through` is `true` and the previous frame is higher than the platform.  We ust `yprevious` to get the last fraome position.  So we want the player to jump above the platform then land, so the previous frame must be **less** (or higher) than the current one.
+
+![check for ground adjustment for jumping through clouds](images/checkForPrevFrame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
