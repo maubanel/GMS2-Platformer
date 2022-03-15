@@ -119,7 +119,9 @@ Open up **check_for_ground** and before you adjust the object collision accept i
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now I changed the layout in **rm_test** and separated them by 4 collision blocks and put some blocks at the bottom left.
+
+![reconfigured jump platforms](images/reconfiguredPlatforms.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
