@@ -31,7 +31,9 @@ Download [spr_jump_cloud.png](images/spr_jump_cloud.png).  *Right click* on **Sp
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **rm_test** and remove the three jump platforms.  We will replace them with the jump clouds.
+
+![remove jump platforms](images/removeJumpPlatforms.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
