@@ -17,7 +17,7 @@ Lets do one final plaformer trope and that is a platform type you can jump throu
 
 Download [spr_jump_cloud.png](images/spr_jump_cloud.png).  *Right click* on **Sprites** and select **New | Sprite** and name it `spr_cloud`. 
 
-![import spr_jump_cloud to its own sprite](images/ sprClous.png)
+![import spr_jump_cloud to its own sprite](images/sprClous.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
