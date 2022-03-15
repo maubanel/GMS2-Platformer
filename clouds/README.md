@@ -55,7 +55,7 @@ Now we need to add some cloud platforms one above the other so you can jump thro
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-Open up **obj_collision_parent**. Press the <kbd>Add Event</kbd> and select a **Create** event.
+Open up **obj_collision_parent**. Press the <kbd>Add Event</kbd> and select a **Create** event. Add variable called `can_jump_through` and set the default to `false` so we don't mess with our previous working platforms.
 
 ![add create event to obj_collision_parent](images/canJumpThroughVar.png)
 
