@@ -105,7 +105,9 @@ Now lets fix the lateral collision. Open up the **check_lateral** script and add
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump through the platforms.  The only issue is that is pulling the player up and not letting them jump through.  
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump through the platforms.  The only issue is that is pulling the player up and not letting them jump above and falling down onto the platform.  
+
+https://user-images.githubusercontent.com/5504953/158481370-5452445b-b0d7-4b69-8229-342778960015.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -123,7 +125,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/158481339-af0838df-bee2-4150-903f-8aa92867eba5.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
