@@ -63,9 +63,9 @@ Open up **obj_collision_parent**. Press the <kbd>Add Event</kbd> and select a **
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need
+Now we need to open up **check_ceiling** and when we check the object `else if (left_check_obj || right_check_obj) and check to see if you can't jump through the platforms.  If you can't resolve the collision or otherwise let the person go through returning false.
 
-![alt_text](images/addCheckForCeiling.png)
+![check for can_jump_through in ceiling](images/addCheckForCeiling.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
