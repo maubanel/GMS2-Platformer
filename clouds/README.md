@@ -47,13 +47,17 @@ Don't forget to remove the hidden collisions as well!
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now we need to add some cloud platforms one above the other so you can jump through them.
+
+![add cloud jump platforms](images/objCloudInLevel.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_collision_parent**. Press the <kbd>Add Event</kbd> and select a **Create** event.
+
+![add create event to obj_collision_parent](images/canJumpThroughVar.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
