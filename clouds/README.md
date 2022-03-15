@@ -96,7 +96,7 @@ https://user-images.githubusercontent.com/5504953/158474701-90a60029-898d-4674-b
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-Now lets fix the lateral collision. Open up the **check_lateral** script and add a check before adjusting for an object collision checking the `can_jump_through` variable.
+Now lets fix the lateral collision. Open up the **check_lateral** script and add a check before adjusting for an object collision checking the `can_jump_through` variable. Do this for the left and the right direction.
 
 ![add check for can_jump_through in lateral](images/adjustLateral.png)
 
@@ -105,7 +105,7 @@ Now lets fix the lateral collision. Open up the **check_lateral** script and add
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump through the platforms.  The only issue is that is pulling the player up and not letting them jump through.  
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
