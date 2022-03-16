@@ -17,7 +17,7 @@ Now lets allow the player to go from one room to another.
 
 Now lets download an exit sign [spr_exit.png](images/spr_exit.png). *Right click* on **Sprites** and select **New | Sprite** and name it `spr_exit`.
 
-![alt_text](images/.png)
+![add spr_exit.png to the game](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
