@@ -23,7 +23,7 @@ Now lets download an exit sign [spr_exit.png](images/spr_exit.png). *Right click
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Change the **Collision Mask** to `Manual` and adjust **Left** to `30`.
+Change the **Collision Mask** to `Manual` and adjust **Left** to `55`. We only want the player to trigger the room change when they are well into the exit sign.
 
 ![adjust collision mask](images/collisionMask.png)
 
@@ -31,7 +31,9 @@ Change the **Collision Mask** to `Manual` and adjust **Left** to `30`.
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_player | Create** event and add a **player_state** `change_level`.
+
+![add change_level state](images/addChangeLevelState.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
