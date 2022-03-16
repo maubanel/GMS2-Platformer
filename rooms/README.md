@@ -47,7 +47,7 @@ Open up **obj_player | Create** event and add a **player_state** `change_level`.
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-
+Open up **rm_test** and add an **Instance** layer and name it `Exit`.  Make sure it is under player so the player is in front of the **Exit** sign. Drag `obj_exit` and place it in the far right hand side of the room.
 
 ![add exit to room](images/addExitToRoom.png)
 
