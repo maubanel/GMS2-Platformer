@@ -15,7 +15,7 @@ Now lets allow the player to go from one room to another.
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Now lets download an exit sign [spr_exit.png](images/spr_exit.png). *Right click* on **Sprites** and select **New | Sprite** and name it `spr_exit`.
+Now lets download an exit sign [spr_exit.png](images/spr_exit.png). *Right click* on **Sprites** and select **New | Sprite** and name it `spr_exit`. Change the **Origin** to `Bottom Center` as we will be animating sign when you cross it.
 
 ![add spr_exit.png to the game](images/spriteExit.png)
 

@@ -145,13 +145,21 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 1** event. Set `can_
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **obj_player | Collision | obj_spikes** and add a check to make sure that the player can take damage.
+
+![add check for damage](images/canTakeDamageSpikes.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have time to escape.  The next step is to go back to normal play state where you can take damage again.
 
 https://user-images.githubusercontent.com/5504953/158066203-609648b7-5e06-4cb1-835e-667ecf772a52.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **obj_player | Create** and add a variable to give you time to get out of harms way.  Add a 3 second delay to `damage_delay` variable.
 
@@ -159,7 +167,7 @@ Open up **obj_player | Create** and add a variable to give you time to get out o
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
 Open up **obj_player | Alarm 1** and call a second alarm to allow player to take damage again.
 
@@ -167,7 +175,7 @@ Open up **obj_player | Alarm 1** and call a second alarm to allow player to take
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 2** event. Now set `image_alpha` back to `1` and allow damage again.
 
@@ -175,7 +183,7 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 2** event. Now set `
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have the full cycle working.  You have the player and they can take damage.
 
