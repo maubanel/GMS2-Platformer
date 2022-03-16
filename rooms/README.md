@@ -78,7 +78,7 @@ Open up **Collision | obj_exit** event and add a neutralizing of the `hspeed`.  
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+!Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run into the end and you should stop and the sign rotates.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
