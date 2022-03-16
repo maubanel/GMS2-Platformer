@@ -169,6 +169,8 @@ Now we want the player to keep its health when it changes level.  So we need to 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the level change should work perfectly as planned!
 
+https://user-images.githubusercontent.com/5504953/158508214-83a2d9b3-f361-4677-bb2f-8d308e671305.mp4
+
 ___
 
 
