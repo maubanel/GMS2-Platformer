@@ -34,7 +34,8 @@ All artwork except for the palyer sprite needed for the game is supplied in this
 <kbd></kbd> &nbsp;&nbsp; [Lives](lives/README.md#user-content-lives)<br>
 <kbd></kbd> &nbsp;&nbsp; [Flame Enemy](flame/README.md#user-content-flame-enemy)<br>
 <kbd></kbd> &nbsp;&nbsp; [Jump Through Collisions](clouds/README.md#user-content-jump-through-collisions)<br>
-
+<kbd></kbd> &nbsp;&nbsp; [Change Rooms](rooms/README.md#user-content-change-rooms)<br>
+<kbd></kbd> &nbsp;&nbsp; [Audio](audio/README.md#user-content-audio)<br>
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
