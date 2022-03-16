@@ -119,21 +119,21 @@ Now add collisions on where you want the player to be able to jumnp to and walk 
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Add another **Instance** layer and call it `MovingPlatforms`.  Drag an `obj_platform` to the layer.  Double click the object and press the **Variables** button.  Then set the 
+Add another **Instance** layer and call it `MovingPlatforms`.  Drag an `obj_platform` to the layer.  Double click the object and press the **Variables** button.  Then set the **start_x**, **start_y** and **end_y** to `448`.
 
-![alt_text](images/movingPlatforms.png)
+![set first part of moving platform](images/movingPlatforms.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/rightSide.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/callAlarm.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
