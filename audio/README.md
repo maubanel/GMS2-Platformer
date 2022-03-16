@@ -73,6 +73,7 @@ Open up **obj_player | Step** event and look for the jump code.  We will play th
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Unmute the audio to hear the jumping sounds!
 
+https://user-images.githubusercontent.com/5504953/158620577-6e757cf6-6673-4bce-a752-50aa6c1cdc72.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
