@@ -143,7 +143,9 @@ Now open up **obj_player | Collision | obj_exit** event and an alarm call to `al
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now temporarilly drag a player into **rm_lvl_2** and place them in the starting point.  Record their **x** and **y** position for later. **DELETE** the player from the level.
+
+![find player position level 2](images/placePlayerDelete.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
