@@ -25,13 +25,15 @@ Lets start by adding music to **obj_game**.  We should also make **obj_game** pe
 
 Download [EggyToast_7.mp3](images/EggyToast_7.mp3).  This was downloaded from **https://freemusicarchive.org/genre/Chiptune** and is from **Eggy Toas**.  The song is called **7**.
 
-![alt_text](images/.png)
+![download EggyToast_7.mp3](images/eggyMusic.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Sounds** and select **New | Sound** and name it `snd_music`.  Press the **...** and select `EggyToast_7.mp3`.
+
+![add snd_music with EggyToast_7l.mp3](images/getSndMusic.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
