@@ -127,13 +127,17 @@ Add another **Instance** layer and call it `MovingPlatforms`.  Drag an `obj_plat
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/rightSide.png)
+Now place the platform at the end and set the **end_x**.
+
+![set end_x](images/rightSide.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/callAlarm.png)
+Now open up **obj_player | Collision | obj_exit** event and an alarm call to `alarm[4]`.
+
+![call alarm 4 in obj_player obj_exit collision](images/callAlarm.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
