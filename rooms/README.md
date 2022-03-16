@@ -86,34 +86,42 @@ https://user-images.githubusercontent.com/5504953/158501045-11a29f85-a0b7-448f-a
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-*Right click* on **Rooms** and select **New | Room** and name it `rm_lvl_2`. Change the **Instance** layer name to `Player`.  Add a **Tile** layer and call it 
+*Right click* on **Rooms** and select **New | Room** and name it `rm_lvl_2`. Change the **Instance** layer name to `Player`.  Add a **Tile** layer and call it `Platforms` and place it under **Player**. Assign `ts_platformer_bkgs` to this new layer.
 
-![alt_text](images/newRoom.png)
+![add room rm_lvl_2 and a Platform tile layer](images/newRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Add background tiles to layer.  Go crazy do what you like~!
+
+![add background tiles to layer](images/addBackgroundTiels.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Add a new **Tile** layer called `Collisions`.  Assign `ts_collisions` to the layer.
+
+![add Collisions layer with ts_collisions](images/collisionLayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now add collisions on where you want the player to be able to jumnp to and walk to.
+
+![add collisions](images/addCollisions.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Add another **Instance** layer and call it `MovingPlatforms`.  Drag an `obj_platform` to the layer.  Double click the object and press the **Variables** button.  Then set the 
+
+![alt_text](images/movingPlatforms.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
