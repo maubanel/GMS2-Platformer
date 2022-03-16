@@ -151,7 +151,7 @@ Now temporarilly drag a player into **rm_lvl_2** and place them in the starting 
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 4** event.
+Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 4** event. Now check if we are in **rm_test**, if we are then go to the next level using the `room_goto(room)` function.  Then set the **x** and the **y** to the values you recorded in the previous step (make sure you deleted the player).  Change the player state back to `player_state.play`.
 
 ![add alarm 4](images/addAlarm4.png)
 
@@ -159,7 +159,9 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 4** event.
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we want the player to keep its health when it changes level.  So we need to have the player go from level to level.  We do this by opening **obj_player** and setting `Persistent` to `true`.
+
+![make obj_player persistent](images/persistentPlayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
