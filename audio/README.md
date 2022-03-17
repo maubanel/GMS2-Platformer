@@ -79,13 +79,17 @@ https://user-images.githubusercontent.com/5504953/158620577-6e757cf6-6673-4bce-a
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets add a [fall sound](https://freesound.org/people/broumbroum/sounds/50543/).  Download the prior link or find your own sfx.  No create a new **Sound** asset and link the sound.
+
+![add fall sound](images/sndFall.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Open up **check_for_sound**.  Now look for where we lift the player outside the ground.  We will put in a pitch and volume shifted landing sound there.
+
+![fall sound for player](images/checkForSound.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -159,7 +163,6 @@ ___
 exit: https://freesound.org/people/DWOBoyle/sounds/143607/
 death or health: https://freesound.org/people/cabled_mess/sounds/350982/
 footstep: https://freesound.org/people/MATRIXXX_/sounds/515783/
-fall: https://freesound.org/people/broumbroum/sounds/50543/
 death: https://freesound.org/people/Fupicat/sounds/475347/
 
 

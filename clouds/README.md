@@ -71,6 +71,15 @@ Now we need to open up **check_ceiling** and when we check the object `else if (
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **obj_cloud** and add and override the **Create** event.  We do not need to inherit the parent as we are setting the only variable it has `can_jump_trough` to `true`.
+
+![set can jump through in obj_cloud](images/canJumpThroughCreate.png)
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you can jump under the cloud but the side collisions push you out to the side.  Also check the old platform to see if it works.  Woops, we get a carsh bug!
 
 https://user-images.githubusercontent.com/5504953/158473648-636322bf-ca87-481c-8fcf-eb3437c0d890.mp4
@@ -78,7 +87,7 @@ https://user-images.githubusercontent.com/5504953/158473648-636322bf-ca87-481c-8
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
 Why did we get this error?  We have a variable declared in the parent so **obj_platform** should inherit it.  Open up **obj_platform**. Woops, it already has a **Create** event so we have overriden the parent.  This is an easy fix, just add a `event_inherited()` to inherit the parents vars.  We don't need to adjust it as we want it to be the default of `false`.
 
@@ -86,7 +95,7 @@ Why did we get this error?  We have a variable declared in the parent so **obj_p
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
+##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Test it again and it still collides and this time with no error!
 
@@ -94,7 +103,7 @@ https://user-images.githubusercontent.com/5504953/158474701-90a60029-898d-4674-b
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now lets fix the lateral collision. Open up the **check_lateral** script and add a check before adjusting for an object collision checking the `can_jump_through` variable. Do this for the left and the right direction.
 
@@ -102,8 +111,7 @@ Now lets fix the lateral collision. Open up the **check_lateral** script and add
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-
-##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump through the platforms.  The only issue is that is pulling the player up and not letting them jump above and falling down onto the platform.  
 
@@ -111,7 +119,7 @@ https://user-images.githubusercontent.com/5504953/158481370-5452445b-b0d7-4b69-8
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Open up **check_for_ground** and before you adjust the object collision accept it if `can_jump_through` is false or if `can_jump_through` is `true` and the previous frame is higher than the platform.  We ust `yprevious` to get the last fraome position.  So we want the player to jump above the platform then land, so the previous frame must be **less** (or higher) than the current one.
 
@@ -119,7 +127,7 @@ Open up **check_for_ground** and before you adjust the object collision accept i
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
 Now I changed the layout in **rm_test** and separated them by 4 collision blocks and put some blocks at the bottom left.
 
@@ -127,7 +135,7 @@ Now I changed the layout in **rm_test** and separated them by 4 collision blocks
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have the jump platforms working the way we want!
 
