@@ -195,6 +195,8 @@ Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Go to the exit and hear the sound.  That is all for this walk through, now go make some interesting platforming levels!
 
+https://user-images.githubusercontent.com/5504953/158844925-65157c6b-d340-4911-84d0-86bd7c301639.mp4
+
 ___
 
 
