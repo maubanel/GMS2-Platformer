@@ -79,7 +79,7 @@ https://user-images.githubusercontent.com/5504953/158620577-6e757cf6-6673-4bce-a
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets add a [fall sound](https://freesound.org/people/broumbroum/sounds/50543/).  Download the prior link or find your own sfx.  No create a new **Sound** asset and link the sound.
+Now lets add a [fall sound](https://freesound.org/people/broumbroum/sounds/50543/).  Download the prior link or find your own sfx.  Now create a new **Sound** asset and link the sound.
 
 ![add fall sound](images/sndFall.png)
 
@@ -103,7 +103,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now lets add a [footstep sound](https://freesound.org/people/MATRIXXX_/sounds/515783/).  Download the prior link or find your own sfx.  Make sure it is a single footstep. No create a new **Sound** asset and link the sound.
+Now lets add a [footstep sound](https://freesound.org/people/MATRIXXX_/sounds/515783/).  Download the prior link or find your own sfx.  Make sure it is a single footstep. Now create a new **Sound** asset and link the sound.
 
 ![import footstep sound](images/footstepSound.png)
 
@@ -133,7 +133,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now lets add a [health damage sound](https://freesound.org/people/Mrthenoronha/sounds/399904/).  Download the prior link or find your own sfx.  Make sure it is a single footstep. No create a new **Sound** asset and link the sound. Call it `snd_hit`.
+Now lets add a [health damage sound](https://freesound.org/people/Mrthenoronha/sounds/399904/).  Download the prior link or find your own sfx.  Make sure it is a single hit sound. Now create a new **Sound** asset and link the sound. Call it `snd_hit`.
 
 ![add damage sound to game](images/sndHurt.png)
 
@@ -148,12 +148,15 @@ We can kill two birds with one stone by placing the sound in **obj_player | Alar
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+ Play 
 
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now lets add a [death sound](https://freesound.org/people/Fupicat/sounds/475347/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_death`.
 
 ![alt_text](images/.png)
 
@@ -169,10 +172,11 @@ We can kill two birds with one stone by placing the sound in **obj_player | Alar
 
 ![alt_text](images/.png)
 
+Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_exit`.
+
 ___
 
-exit: https://freesound.org/people/DWOBoyle/sounds/143607/
-death: https://freesound.org/people/Fupicat/sounds/475347/
+
 
 
 
