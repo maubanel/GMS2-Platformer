@@ -162,21 +162,27 @@ https://user-images.githubusercontent.com/5504953/158838128-fed51751-6cfb-47b0-a
 
 Now lets add a [death sound](https://freesound.org/people/Fupicat/sounds/475347/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_death`.
 
-![alt_text](images/.png)
+![import death sound](images/SndDeath.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Now we switch to the death animation in Alarm 3 so lets trigger the sound there.
+
+![trigger death sound alarm 3](images/alarm3Death.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now kill yourself to hear the sound.
+
+
 
 Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_exit`.
+
+![alt_text](images/.png)
 
 ___
 
