@@ -189,6 +189,12 @@ Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607
 
 ![add exit sound](images/sndExit.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 23.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Go to the exit and hear the sound.  That is all for this walk through, now go make some interesting platforming levels!
+
 ___
 
 
@@ -197,7 +203,7 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - That's All Folks!">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
