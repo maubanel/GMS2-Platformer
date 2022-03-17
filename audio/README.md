@@ -181,9 +181,13 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 https://user-images.githubusercontent.com/5504953/158843691-2d3e4c27-1e2e-4536-9774-33fb6df64907.mp4
 
 
-Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_exit`.
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-![alt_text](images/.png)
+##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_exit`. Trigger the exit sound in the **obj_player | Collision | obj_exit**.  Make sure the sound only plays once as the player keep colliding.
+
+![add exit sound](images/sndExit.png)
 
 ___
 
