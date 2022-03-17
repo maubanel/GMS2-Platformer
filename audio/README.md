@@ -87,7 +87,7 @@ Now lets add a [fall sound](https://freesound.org/people/broumbroum/sounds/50543
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-Open up **check_for_sound**.  Now look for where we lift the player outside the ground.  We will put in a pitch and volume shifted landing sound there.
+Open up **check_for_sound**.  Now look for where we lift the player outside the ground.  We will put in a pitch and volume shifted landing sound there. We do that for both objects and tile backgrounds.
 
 ![fall sound for player](images/checkForSound.png)
 
@@ -95,7 +95,8 @@ Open up **check_for_sound**.  Now look for where we lift the player outside the 
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump and land.  It should make a sound on both tiles and object ground planes.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
