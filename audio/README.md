@@ -154,6 +154,7 @@ We can kill two birds with one stone by placing the sound in **obj_player | Alar
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now take damage and you should hear a sound reaction.
 
+https://user-images.githubusercontent.com/5504953/158838128-fed51751-6cfb-47b0-abb0-44788fb7d0ee.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
