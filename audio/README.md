@@ -146,7 +146,7 @@ Now lets add a [health damage sound](https://freesound.org/people/Mrthenoronha/s
 
 We can kill two birds with one stone by placing the sound in **obj_player | Alarm 0**.  This is called for both the spike damage and the fire enemy damage.
 
-![acall audio in alarm 0 for hit](images/snd_hit.png)
+![acall audio in alarm 0 for hit](images/alarm0.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
