@@ -97,6 +97,7 @@ Open up **check_for_sound**.  Now look for where we lift the player outside the 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump and land.  It should make a sound on both tiles and object ground planes.
 
+https://user-images.githubusercontent.com/5504953/158837594-d3da5aec-89a9-468d-9299-2039f3a2c469.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -128,6 +129,8 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 5** event. This even
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have a nice footstep sound.
+
+https://user-images.githubusercontent.com/5504953/158837665-999c146c-f98c-4088-881f-06d964080a42.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
