@@ -103,37 +103,47 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now lets add a [footstep sound](https://freesound.org/people/MATRIXXX_/sounds/515783/).  Download the prior link or find your own sfx.  Make sure it is a single footstep. No create a new **Sound** asset and link the sound.
+
+![import footstep sound](images/footstepSound.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_player | End Step** and look for where we pick the run animation.  The footstep sound will only play when running.  Intead of calling the sound we will have a slight delay so that the footsteps don't play too close to each other.  In this sound I picked a 3 frame delay seems right.  When the sound is no longer playing call **alarm 5**.
+
+![call alarm 5 when footstep not playing](images/footstepSound.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 5** event. This event fire off quiet footsounds with a slight change in pitch and volume.
+
+![play footstep sound](images/alarm5.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have a nice footstep sound.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now lets add a [health damage sound](https://freesound.org/people/Mrthenoronha/sounds/399904/).  Download the prior link or find your own sfx.  Make sure it is a single footstep. No create a new **Sound** asset and link the sound. Call it `snd_hit`.
+
+![add damage sound to game](images/sndHurt.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We can kill two birds with one stone by placing the sound in **obj_player | Alarm 0**.  This is called for both the spike damage and the fire enemy damage.
+
+![acall audio in alarm 0 for hit](images/snd_hit.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -162,8 +172,6 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 ___
 
 exit: https://freesound.org/people/DWOBoyle/sounds/143607/
-death or health: https://freesound.org/people/cabled_mess/sounds/350982/
-footstep: https://freesound.org/people/MATRIXXX_/sounds/515783/
 death: https://freesound.org/people/Fupicat/sounds/475347/
 
 
