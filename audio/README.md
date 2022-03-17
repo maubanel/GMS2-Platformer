@@ -114,7 +114,7 @@ Now lets add a [footstep sound](https://freesound.org/people/MATRIXXX_/sounds/51
 
 Open up **obj_player | End Step** and look for where we pick the run animation.  The footstep sound will only play when running.  Intead of calling the sound we will have a slight delay so that the footsteps don't play too close to each other.  In this sound I picked a 3 frame delay seems right.  When the sound is no longer playing call **alarm 5**.
 
-![call alarm 5 when footstep not playing](images/footstepSound.png)
+![call alarm 5 when footstep not playing](images/endStepFootsteps.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
