@@ -87,7 +87,7 @@ Open up **obj_polayer | Create** event and add two variables for the x offsets o
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-*Right click* on **Scripts** and select **New | Script** and name it `obj_foo`. Set the **Sprite** to `check_ceiling`. The first thing we will check for is if we are falling downwards.  If we are falling down, there is no point in checking for ceiling collisions.
+*Right click* on **Scripts** and select **New | Script** and name it `check_ceiling`. The first thing we will check for is if we are falling downwards.  If we are falling down, there is no point in checking for ceiling collisions.
 
 ![check for going down in ceiling collision](images/checkCeilingFunc.png)
 
