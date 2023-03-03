@@ -193,6 +193,8 @@ https://user-images.githubusercontent.com/5504953/158066174-cb14bd3c-b78b-4081-8
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - health bar"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [previous](../moving-platforms-ii/README.md#user-content-moving-platforms-ii)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../health-bar/README.md#user-content-health-bar)|

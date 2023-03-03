@@ -179,6 +179,8 @@ ___
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Ground Damage"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [previous](../moving-platforms/README.md#user-content-moving-platforms)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../ground-hazards/README.md#user-content-ground-hazards)|

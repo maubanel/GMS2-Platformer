@@ -208,6 +208,8 @@ ___
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Gravity and Ground Collision II"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [previous](../setup-player/README.md#user-content-setup-player)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../gravity-collision-ii/README.md#user-content-gravity-and-ground-collision-ii)|

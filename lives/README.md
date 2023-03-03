@@ -197,6 +197,8 @@ ___
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Flame Enemy"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [previous](../health-bar/README.md#user-content-health-bar)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../flame/README.md#user-content-flame-enemy)|

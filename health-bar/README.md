@@ -90,6 +90,8 @@ ___
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Lives"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [previous](../ground-hazards/README.md#user-content-ground-hazards)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../lives/README.md#user-content-lives)|

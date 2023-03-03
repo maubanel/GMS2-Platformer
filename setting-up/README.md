@@ -91,6 +91,8 @@ ___
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [home](../README.md#user-content-gms2-top-down-shooter) | [next](../background-tiles/README.md#user-content-background-tiles)|

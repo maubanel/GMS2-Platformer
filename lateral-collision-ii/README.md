@@ -75,6 +75,8 @@ ___
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Jumping and Ceiling Collision"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [previous](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision)|

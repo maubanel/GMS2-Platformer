@@ -114,6 +114,8 @@ ___
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Setup Player"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../setup-player/README.md#user-content-setup-player)|

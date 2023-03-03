@@ -98,6 +98,8 @@ ___
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Lateral Movement and Wall Collision"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [previous](../gravity-collision/README.md#user-content-gravity-and-ground-collision)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)|

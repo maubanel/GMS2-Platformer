@@ -122,6 +122,8 @@ ___
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Jump Through Collisions"> -->
 
+![next up - ](images/banner.png)
+
 ![](../images/line.png)
 
 | [previous](../lives/README.md#user-content-lives)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../clouds/README.md#user-content-jump-through-collisions)|

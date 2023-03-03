@@ -12,7 +12,6 @@ Chapter introduction here.
 
 ---
 
-
 ##### `Step 1.`\|`PLTFRMR`|:small_blue_diamond:
 
 ![alt_text](images/.png)
@@ -138,12 +137,11 @@ Chapter introduction here.
 
 ![alt_text](images/.png)
 
-___
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
+
+![next up - ](images/banner.png)
 
 ![](../images/line.png)
 
