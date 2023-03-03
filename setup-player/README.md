@@ -2,7 +2,7 @@
 
 ### Setup Player
 
-<sub>[previous](../background-tiles/README.md#user-content-background-tiles) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../gravity-collision/README.md#user-content-gravity-and-ground-collision)</sub>
+<sub>[previous](../background-tiles/README.md#user-content-background-tiles) • [home](../README.md#user-content-gms2-platformer) • [next](../gravity-collision/README.md#user-content-gravity-and-ground-collision)</sub>
 
 ![](../images/line3.png)
 
