@@ -2,7 +2,7 @@
 
 ### Jump Through Collisions
 
-<sub>[previous](../flame/README.md#user-content-flame-enemy) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../rooms/README.md#user-content-change-rooms)</sub>
+<sub>[previous](../flame/README.md#user-content-flame-enemy) • [home](../README.md#user-content-gms2-platformer) • [next](../rooms/README.md#user-content-change-rooms)</sub>
 
 ![](../images/line3.png)
 
@@ -152,5 +152,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../flame/README.md#user-content-flame-enemy)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../rooms/README.md#user-content-change-rooms)|
+| [previous](../flame/README.md#user-content-flame-enemy)| [home](../README.md#user-content-gms2-platformer) | [next](../rooms/README.md#user-content-change-rooms)|
 |---|---|---|

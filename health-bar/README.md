@@ -2,7 +2,7 @@
 
 ### Health Bar
 
-<sub>[previous](../ground-hazards/README.md#user-content-ground-hazards) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../lives/README.md#user-content-lives)</sub>
+<sub>[previous](../ground-hazards/README.md#user-content-ground-hazards) • [home](../README.md#user-content-gms2-platformer) • [next](../lives/README.md#user-content-lives)</sub>
 
 ![](../images/line3.png)
 
@@ -94,5 +94,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../ground-hazards/README.md#user-content-ground-hazards)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../lives/README.md#user-content-lives)|
+| [previous](../ground-hazards/README.md#user-content-ground-hazards)| [home](../README.md#user-content-gms2-platformer) | [next](../lives/README.md#user-content-lives)|
 |---|---|---|

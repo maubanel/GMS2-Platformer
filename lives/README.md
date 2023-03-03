@@ -2,7 +2,7 @@
 
 ### Lives
 
-<sub>[previous](../health-bar/README.md#user-content-health-bar) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../flame/README.md#user-content-flame-enemy)</sub>
+<sub>[previous](../health-bar/README.md#user-content-health-bar) • [home](../README.md#user-content-gms2-platformer) • [next](../flame/README.md#user-content-flame-enemy)</sub>
 
 ![](../images/line3.png)
 
@@ -201,5 +201,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../health-bar/README.md#user-content-health-bar)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../flame/README.md#user-content-flame-enemy)|
+| [previous](../health-bar/README.md#user-content-health-bar)| [home](../README.md#user-content-gms2-platformer) | [next](../flame/README.md#user-content-flame-enemy)|
 |---|---|---|

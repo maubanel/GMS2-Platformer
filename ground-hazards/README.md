@@ -2,7 +2,7 @@
 
 ### Ground Hazards
 
-<sub>[previous](../moving-platforms-ii/README.md#user-content-moving-platforms-ii) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../health-bar/README.md#user-content-health-bar)</sub>
+<sub>[previous](../moving-platforms-ii/README.md#user-content-moving-platforms-ii) • [home](../README.md#user-content-gms2-platformer) • [next](../health-bar/README.md#user-content-health-bar)</sub>
 
 ![](../images/line3.png)
 
@@ -197,5 +197,5 @@ https://user-images.githubusercontent.com/5504953/158066174-cb14bd3c-b78b-4081-8
 
 ![](../images/line.png)
 
-| [previous](../moving-platforms-ii/README.md#user-content-moving-platforms-ii)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../health-bar/README.md#user-content-health-bar)|
+| [previous](../moving-platforms-ii/README.md#user-content-moving-platforms-ii)| [home](../README.md#user-content-gms2-platformer) | [next](../health-bar/README.md#user-content-health-bar)|
 |---|---|---|

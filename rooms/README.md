@@ -2,7 +2,7 @@
 
 ### Change Rooms
 
-<sub>[previous](../clouds/README.md#user-content-jump-through-collisions) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../audio/README.md#user-content-audio)</sub>
+<sub>[previous](../clouds/README.md#user-content-jump-through-collisions) • [home](../README.md#user-content-gms2-platformer) • [next](../audio/README.md#user-content-audio)</sub>
 
 ![](../images/line3.png)
 
@@ -182,5 +182,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../clouds/README.md#user-content-jump-through-collisions)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../audio/README.md#user-content-audio)|
+| [previous](../clouds/README.md#user-content-jump-through-collisions)| [home](../README.md#user-content-gms2-platformer) | [next](../audio/README.md#user-content-audio)|
 |---|---|---|

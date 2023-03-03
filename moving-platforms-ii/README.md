@@ -2,7 +2,7 @@
 
 ### Moving Platforms II
 
-<sub>[previous](../moving-platforms/README.md#user-content-moving-platforms) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../ground-hazards/README.md#user-content-ground-hazards)</sub>
+<sub>[previous](../moving-platforms/README.md#user-content-moving-platforms) • [home](../README.md#user-content-gms2-platformer) • [next](../ground-hazards/README.md#user-content-ground-hazards)</sub>
 
 ![](../images/line3.png)
 
@@ -183,5 +183,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../moving-platforms/README.md#user-content-moving-platforms)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../ground-hazards/README.md#user-content-ground-hazards)|
+| [previous](../moving-platforms/README.md#user-content-moving-platforms)| [home](../README.md#user-content-gms2-platformer) | [next](../ground-hazards/README.md#user-content-ground-hazards)|
 |---|---|---|

@@ -2,7 +2,7 @@
 
 ### Add Title
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../)</sub>
+<sub>[previous](../) • [home](../README.md#user-content-gms2-platformer) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -145,5 +145,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../)|
+| [previous](../)| [home](../README.md#user-content-gms2-platformer) | [next](../)|
 |---|---|---|

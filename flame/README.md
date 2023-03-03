@@ -2,7 +2,7 @@
 
 ### Flame Enemy
 
-<sub>[previous](../lives/README.md#user-content-lives) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../clouds/README.md#user-content-jump-through-collisions)</sub>
+<sub>[previous](../lives/README.md#user-content-lives) • [home](../README.md#user-content-gms2-platformer) • [next](../clouds/README.md#user-content-jump-through-collisions)</sub>
 
 ![](../images/line3.png)
 
@@ -126,5 +126,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../lives/README.md#user-content-lives)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../clouds/README.md#user-content-jump-through-collisions)|
+| [previous](../lives/README.md#user-content-lives)| [home](../README.md#user-content-gms2-platformer) | [next](../clouds/README.md#user-content-jump-through-collisions)|
 |---|---|---|

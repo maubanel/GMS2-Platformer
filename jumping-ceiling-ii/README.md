@@ -2,7 +2,7 @@
 
 ### Jumping and Ceiling Collision II
 
-<sub>[previous](../jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../moving-platforms/README.md#user-content-moving-platforms)</sub>
+<sub>[previous](../jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision) • [home](../README.md#user-content-gms2-platformer) • [next](../moving-platforms/README.md#user-content-moving-platforms)</sub>
 
 ![](../images/line3.png)
 
@@ -103,5 +103,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../moving-platforms/README.md#user-content-moving-platforms)|
+| [previous](../jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision)| [home](../README.md#user-content-gms2-platformer) | [next](../moving-platforms/README.md#user-content-moving-platforms)|
 |---|---|---|

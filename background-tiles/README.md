@@ -2,7 +2,7 @@
 
 ### Background Tiles
 
-<sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../setup-player/README.md#user-content-setup-player)</sub>
+<sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gms2-platformer) • [next](../setup-player/README.md#user-content-setup-player)</sub>
 
 ![](../images/line3.png)
 
@@ -118,5 +118,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../setup-player/README.md#user-content-setup-player)|
+| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gms2-platformer) | [next](../setup-player/README.md#user-content-setup-player)|
 |---|---|---|

@@ -2,7 +2,7 @@
 
 ### Gravity and Ground Collision II
 
-<sub>[previous](../gravity-collision/README.md#user-content-gravity-and-ground-collision) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)</sub>
+<sub>[previous](../gravity-collision/README.md#user-content-gravity-and-ground-collision) • [home](../README.md#user-content-gms2-platformer) • [next](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)</sub>
 
 ![](../images/line3.png)
 
@@ -102,5 +102,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../gravity-collision/README.md#user-content-gravity-and-ground-collision)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)|
+| [previous](../gravity-collision/README.md#user-content-gravity-and-ground-collision)| [home](../README.md#user-content-gms2-platformer) | [next](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)|
 |---|---|---|

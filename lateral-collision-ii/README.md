@@ -2,7 +2,7 @@
 
 ### Lateral Movement and Wall Collision II
 
-<sub>[previous](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision)</sub>
+<sub>[previous](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision) • [home](../README.md#user-content-gms2-platformer) • [next](../jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision)</sub>
 
 ![](../images/line3.png)
 
@@ -79,5 +79,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision)|
+| [previous](../lateral-collision/README.md#user-content-lateral-movement-and-wall-collision)| [home](../README.md#user-content-gms2-platformer) | [next](../jumping-ceiling/README.md#user-content-jumping-and-ceiling-collision)|
 |---|---|---|

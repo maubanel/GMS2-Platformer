@@ -2,7 +2,7 @@
 
 ### Moving Platforms
 
-<sub>[previous](../jumping-ceiling-ii/README.md#user-content-jumping-and-ceiling-collision-ii) • [home](../README.md#user-content-gms2-top-down-shooter) • [next](../moving-platforms-ii/README.md#user-content-moving-platforms-ii)</sub>
+<sub>[previous](../jumping-ceiling-ii/README.md#user-content-jumping-and-ceiling-collision-ii) • [home](../README.md#user-content-gms2-platformer) • [next](../moving-platforms-ii/README.md#user-content-moving-platforms-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -193,5 +193,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../jumping-ceiling-ii/README.md#user-content-jumping-and-ceiling-collision-ii)| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../moving-platforms-ii/README.md#user-content-moving-platforms-ii)|
+| [previous](../jumping-ceiling-ii/README.md#user-content-jumping-and-ceiling-collision-ii)| [home](../README.md#user-content-gms2-platformer) | [next](../moving-platforms-ii/README.md#user-content-moving-platforms-ii)|
 |---|---|---|

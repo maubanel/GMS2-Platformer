@@ -2,7 +2,7 @@
 
 ### Audio
 
-<sub>[previous](../rooms/README.md#user-content-change-rooms) • [home](../README.md#user-content-gms2-top-down-shooter)</sub>
+<sub>[previous](../rooms/README.md#user-content-change-rooms) • [home](../README.md#user-content-gms2-platformer)</sub>
 
 ![](../images/line3.png)
 
@@ -207,5 +207,5 @@ ___
 
 ![](../images/line.png)
 
-| [previous](../rooms/README.md#user-content-change-rooms)| [home](../README.md#user-content-gms2-top-down-shooter) |
+| [previous](../rooms/README.md#user-content-change-rooms)| [home](../README.md#user-content-gms2-platformer) |
 |---|---|

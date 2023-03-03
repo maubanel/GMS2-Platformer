@@ -2,7 +2,7 @@
 
 ### Setting Up
 
-<sub>[home](../README.md#user-content-gms2-top-down-shooter) • [next](../background-tiles/README.md#user-content-background-tiles)</sub>
+<sub>[home](../README.md#user-content-gms2-platformer) • [next](../background-tiles/README.md#user-content-background-tiles)</sub>
 
 ![](../images/line3.png)
 
@@ -95,5 +95,5 @@ ___
 
 ![](../images/line.png)
 
-| [home](../README.md#user-content-gms2-top-down-shooter) | [next](../background-tiles/README.md#user-content-background-tiles)|
+| [home](../README.md#user-content-gms2-platformer) | [next](../background-tiles/README.md#user-content-background-tiles)|
 |---|---|
