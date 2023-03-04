@@ -87,11 +87,38 @@ So if **x** is `134.567` then we would save `.567` subtract it from **X** so it 
 
 ##### `Step 9.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Remove the debug printing for y in the **obj_player | End Step**.
+
+![remove debug message](images/removeDebug.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
+
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now it should be the same as before but with no messages being printed as they were removed.
 
 https://user-images.githubusercontent.com/5504953/157274569-5499dfd5-ddf6-468a-85e3-38eb407d6eab.mp4
 
-___
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 
 
 ![](../images/line.png)
