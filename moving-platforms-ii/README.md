@@ -18,6 +18,8 @@ Lets get collision detection working on objects.
 For the platform check we cannot just check 1 pixel below the player's feet as the platform is moving. We have to move the speed of the platform to the check to see if the player is still standing on the platform.  To do this we need to open up **obj_platform | Create** and **obj_platform | Step** events and chnage `platform_speed` to `global.platform_speed`.
 
 
+![change platform_speed to global](images/changeGlobal.png)
+
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: 
