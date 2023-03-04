@@ -95,13 +95,22 @@ Remove the debug printing for y in the **obj_player | End Step**.
 
 ##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
 
+Now we should see the *in ground* debug message only once which is what we want.  Remove second debug message from **check_for_ground** collision script.
+
+![remove second debug message](images/removeDebug2.png)
+
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
+
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now it should be the same as before but with no messages being printed as they were removed.
 
 https://user-images.githubusercontent.com/5504953/157274569-5499dfd5-ddf6-468a-85e3-38eb407d6eab.mp4
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
@@ -109,8 +118,7 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session. Make sure the message accurately represents what you have done. Press the <kbd>OK</kbd> button.
 
@@ -118,7 +126,8 @@ Open up **P4V**.  Select the top folder and press the **Add** button.  We want t
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
