@@ -99,7 +99,9 @@ Go back to `check_lateral` **Script** and add a check to make sure that you are 
 
 ##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
 
-Now we need to call the function.  So open **obj_player | End Step** event and a call to the `check_lateral(check_left)` function right after you check for the ground collision.
+We need to make sure that the collision detection is on whole numbers (there are no fractional pixels).  So we will remove the fractional portion of the values, then re-add them back after the collision detection.
+
+Now we need to call the function.  So open **obj_player | End Step** event and a call to the `check_lateral(check_left)` function right after you check for the ground collision between the fractional adjustements.
 
 ![call check_lateral function](images/checkLeftPlayer.png)
 
@@ -139,7 +141,9 @@ https://user-images.githubusercontent.com/5504953/157440757-4015332d-77d0-404d-a
 
 ##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Lets alter the animation logic so that the player switches between running and idling.  They both only run if the player is on the ground and the player idles when it is not moving horizontally and is running when moving.  Lets alter this logic in **obj_player | End Step** event at the bottom **after** the collision detection.
+Lets alter the animation logic so that the player switches between running and idling.  They both only run if the player is on the ground and the player idles when it is not moving horizontally and is running when moving. We should be doing this after the collisions are resolved.  So delete the facing angle in the **obj_player | Step** event.
+
+ Lets add this logic in **obj_player | End Step** event at the bottom **after** the collision detection.
 
 ![add run anims](images/runAnim.png)
 
