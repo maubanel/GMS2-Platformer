@@ -159,7 +159,7 @@ https://user-images.githubusercontent.com/5504953/157441926-71430fa2-ed5f-4151-8
 
 ##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the player is not running the falling animation when falling off of a platform.  Lets add one more animation state when th eplayer is not on the ground and is moving downwards.
+Now the player is not running the falling animation when falling off of a platform.  Lets add one more animation state when the player is not on the ground and is moving downwards.
 
 ![fall animation logic](images/fallAnimLogic.png)
 
