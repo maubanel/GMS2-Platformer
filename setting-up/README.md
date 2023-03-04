@@ -31,7 +31,7 @@ You have a **README.txt** file that you can add your name to. As you are complet
 
 ##### `Step 3.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Code</kbd> button and select **Open with GitHub Desktop**.
+Double click the **GMS2-Platformer.yyp** up and you will see the **GameMaker IDE**.
 
 ![open new repo with github desktop](images/openOnGithub.png)
 
