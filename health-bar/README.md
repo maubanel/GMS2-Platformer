@@ -12,7 +12,6 @@ Instead of using the built in health bar that we have been using lets do somethi
 
 ---
 
-
 ##### `Step 1.`\|`PLTFRMR`|:small_blue_diamond:
 
 Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
