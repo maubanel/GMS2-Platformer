@@ -138,8 +138,6 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. T
 
 https://user-images.githubusercontent.com/5504953/157869258-385c4e90-3087-482f-abbc-b494980eb24a.mp4
 
-![create collision parent](images/collisionParent.png)
-
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
@@ -147,6 +145,8 @@ https://user-images.githubusercontent.com/5504953/157869258-385c4e90-3087-482f-a
 Now we may want to collide with multiple objects in our game.  So lets not check collisions with this one object. Lets create an object parent type that all object that want to collide with players can subscribe to.  
 
 *Right click* on **Objects** and select **New | Object** and name it `obj_collision_parent`. DO NOT set a sprite.
+
+![create collision parent](images/collisionParent.png)
 
 ![](../images/line2.png)
 
