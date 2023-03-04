@@ -225,6 +225,10 @@ Open up **P4V**.  Select the top folder and press the **Add** button.  We want t
 
 ##### `Step 26.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: 
 
+Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
+
+![submit changelist to p4v](images/submit.png)
+
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Gravity and Ground Collision"> -->
