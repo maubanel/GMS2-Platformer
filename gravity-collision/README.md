@@ -47,7 +47,7 @@ https://user-images.githubusercontent.com/5504953/157145075-7ed01007-c584-40d8-b
 
 ##### `Step 5.`\|`PLTFRMR`| :small_orange_diamond:
 
-Press the <kbd>Add Event</kbd> and select a **Other | Room Start** event. Why the **Room Start** event?  This way every time the player changes to a new level/room it will check for the new collision link.  This will make sure that the player is always looking at the correct collision map in each room.
+Next up we need the player to be able to collisde with teh background tiles. Specifically the pink ones we created for collision events. On **obj_player** press the <kbd>Add Event</kbd> and select a **Other | Room Start** event. Why the **Room Start** event?  This way every time the player changes to a new level/room it will check for the new collision link.  This will make sure that the player is always looking at the correct collision map in each room.
 
 For collisions to work we have to know if the player is on top of the ground falling, or inside the ground and needs to be brought up. We need to know if the tile the player is in contains a collision volume.  For this we need to check for the presense of the **ts_collisions**.  We use two functions, the first being `layer_get_id(layer_name)`.
 
@@ -164,7 +164,7 @@ Now go back to the **End Step** and take the modulus of the `grid_size` and add 
 
 Now we need to:
 
-1. Create a temporary veraible to hold how much we need to move on y if any.
+1. Create a temporary variable to hold how much we need to move on y if any.
 
 2.  Check if either foot is in the ground.
 
