@@ -170,7 +170,7 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 0** event. If ther a
 
 ##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now this works perfectly except that when the player chnages back their animations are still frozen.  This is a bug!
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now this works perfectly except that when the player changes back their animations are still frozen.  This is a bug!
 
 https://user-images.githubusercontent.com/5504953/158079190-d6208230-8543-4f35-afbb-751c76bc8405.mp4
 
