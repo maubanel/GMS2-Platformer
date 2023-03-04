@@ -15,9 +15,9 @@ Lets get set up so we can start creating the foundation for a platformer
 
 ##### `Step 1.`\|`PLTFRMR`|:small_blue_diamond:
 
-Lets start by cloning a new project.  Go to [GitHub Classroom - GMS2-Platformer](https://classroom.github.com/a/GkXEdEOw). Press the <kbd>Accept this Assignment</kbd> button.
+You will have a new folder called **GMS2-Platformer**. If you open it you will find that I have a project that is ready to go with some artwork and scripts to help get you started faster.
 
-![accept assignment from github classroom](images/acceptAssignment.png)
+![accept assignment from github classroom](images/platformerProject.png)
 
 ![](../images/line2.png)
 
