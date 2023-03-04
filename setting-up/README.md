@@ -23,9 +23,9 @@ You will have a new folder called **GMS2-Platformer**. If you open it you will f
 
 ##### `Step 2.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: 
 
-You will be taken to a page that says to wait for hte assignment to be prepared.  Refresh the web browser and you should see a link to your new repository.
+You have a README.txt file that you can add your name to. As you are completing the walk through, you can add comments about the walk through.
 
-![link to github repo](images/linkToRepo.png)
+![link to github repo](images/readMe.png)
 
 ![](../images/line2.png)
 
