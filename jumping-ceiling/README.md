@@ -15,6 +15,12 @@ Now it is not much of a platformer without being able to jump.  lets add the abi
 
 ##### `Step 1.`\|`PLTFRMR`|:small_blue_diamond:
 
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: 
