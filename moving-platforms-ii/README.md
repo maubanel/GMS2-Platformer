@@ -101,6 +101,9 @@ Now we will reverse the direction of the platform if it collides with the player
 
 ![alter dist from local var to normal var](images/alterDist.png)
 
+![](../images/line2.png)
+
+##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. We want to look to after the platform has moved to the new position.  We will use `instance_place(x, y, obj)` to determine if there is still a collision between the player and the platform.  Now there is no guarantee that the player will run its collision detection and move the player out of the way and when this collision will run as both are in the `end step` event. So we will only reverse direction if the collision volume is within 92 pixels (the player is 92 pixels tall).  This should stop the platform from pushing the player out of the bottom of the level.
 
@@ -108,7 +111,7 @@ Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. We want t
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now run around the platform and it only seems to reverse when crushing the player.
 
@@ -116,7 +119,7 @@ https://user-images.githubusercontent.com/5504953/158018940-2dd167a8-8174-4448-b
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Turn on the **Collision** layer so we can see it.  Select the **Platform** tile layer and on the right side of the room add two jump platforms that you need to double jump to (three blocks high).  Add another moving platform to take you from one end to another.
 
@@ -124,7 +127,7 @@ Turn on the **Collision** layer so we can see it.  Select the **Platform** tile 
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: 
 
 Now go back to the **Collision** layer and add the collisions to these two new platforms.
 
@@ -132,7 +135,7 @@ Now go back to the **Collision** layer and add the collisions to these two new p
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Turn the **Collisions** view off.
 
@@ -140,7 +143,7 @@ Turn the **Collisions** view off.
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 You now should bring the moving platform to the starting point on the far right.  You can get the **start_X**, **start_Y** and **end_Y** based on its position.
 
@@ -148,7 +151,7 @@ You now should bring the moving platform to the starting point on the far right.
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you can move the platform to the left to its target position and set the **end_x**.
 
@@ -156,7 +159,7 @@ Now you can move the platform to the left to its target position and set the **e
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump on the sideways platform.  Woops the platform moves underneath the player.  We want the player to move with the platform.
 
@@ -164,15 +167,11 @@ https://user-images.githubusercontent.com/5504953/158022971-00a35221-91c1-4392-8
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
 
 When I first tried to implement the moving along platform I had some fractional errors of the player not being quite on top of the ground.  With precision errors in floats the player drifted downwards and caused issues.  This is solved by making sure that when we are on the ground that `vspeed` is still `0` and that the player is not between pixels (the number is NOT fractional).  Open up **obj_player | End Step**.
 
 ![remove fractional error on ground in end_step](images/fractionalError.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
 
 So we now open up **check_for_ground** and in the checking for 1 pixel below ground we look to see if we are on a moving platform (object collision).  If we are get a reference to the valid collision result then adjust the player's `x` by the `hspeed` of the platform.
 
