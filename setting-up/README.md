@@ -17,7 +17,7 @@ Lets get set up so we can start creating the foundation for a platformer
 
 You will have a new folder called **GMS2-Platformer**. If you open it you will find that I have a project that is ready to go with some artwork and scripts to help get you started faster.
 
-![accept assignment from github classroom](images/platformerProject.png)
+![folder with project](images/platformerProject.png)
 
 ![](../images/line2.png)
 
@@ -25,7 +25,7 @@ You will have a new folder called **GMS2-Platformer**. If you open it you will f
 
 You have a **README.txt** file that you can add your name to. As you are completing the walk through, you can add comments about the walk through.
 
-![link to github repo](images/readMe.png)
+![readme file](images/readMe.png)
 
 ![](../images/line2.png)
 
@@ -33,7 +33,7 @@ You have a **README.txt** file that you can add your name to. As you are complet
 
 Double click the **GMS2-Platformer.yyp** up and you will see the **GameMaker IDE**.
 
-![open new repo with github desktop](images/openOnGithub.png)
+![ide opened up](images/ide.png)
 
 ![](../images/line2.png)
 
