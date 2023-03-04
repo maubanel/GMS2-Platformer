@@ -205,7 +205,25 @@ We play this back slower to exaggerate and emphasize the death animation.
 https://user-images.githubusercontent.com/5504953/157056858-fbf26bbd-6926-45df-b8cb-abbbb1a6bce5.mp4
 ![](../images/line2.png)
 
+![](../images/line2.png)
 
+##### `Step 24.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
+
+![save then quit gamemaker](images/saveQuit.png)
+
+![](../images/line2.png)
+
+##### `Step 25.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: 
+
+Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session. Make sure the message accurately represents what you have done. Press the <kbd>OK</kbd> button.
+
+![add new and changed files to p4v](images/add.png)
+
+![](../images/line2.png)
+
+##### `Step 26.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: 
 
 ![](../images/line.png)
 
