@@ -122,7 +122,7 @@ https://user-images.githubusercontent.com/5504953/158077134-ba1763e4-820e-4c06-8
 
 ##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **obj_player_dead**.  Press the <kbd>Add Event</kbd> and select a **Create** event. Now make the player opaque and slow the motion down for dramatic effect!
+Open up **obj_player_dead**.  Press the <kbd>Add Event</kbd> and select a **Create** event. Also, reset to the first from of the animation. Now make the player opaque and slow the motion down for dramatic effect!
 
 ![add create event to player and set to opaque and slow mo](images/slowMoDrama.png)
 
