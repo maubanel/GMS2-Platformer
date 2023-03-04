@@ -24,7 +24,7 @@ For the platform check we cannot just check 1 pixel below the player's feet as t
 
 ##### `Step 2.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: 
 
- Open up `check_for_ground`. Now we need to also check in the `if (on ground)` section to see if the pixel below is on ground of a moving platform.  We look 1 pixel below then expand the check for being right on top of the ground.
+ Open up `check_for_ground`. Now we need to also check in the `if (on ground)` section to see if the pixel below is on ground of a moving platform.  We look 1 + the platform speed pixels below to check for being right on top of the ground.
 
 ![check one pixel above](images/checkBelow.png)
 
@@ -56,13 +56,21 @@ Now we need to do the same thing to the right.  We need to place the offset left
 
 ##### `Step 6.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond:
 
+Check you brackets very carefully to make sure they are in the correct spot or the logic will not work.
+
+![check brackets](images/check_brackets.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The collision to the right works now!
 
 https://user-images.githubusercontent.com/5504953/158003271-ea9380de-edd4-4c50-89a8-95132e3c89a2.mp4
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now open up `check_ceiling` and we will add a duplicate check of any object the player could run into. We use the same feelers distance as we did for the tiles.  We also now look for no collision acress tiles OR objects before deciding that there is no collsioin.
 
@@ -70,7 +78,7 @@ Now open up `check_ceiling` and we will add a duplicate check of any object the 
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we will have to adjust the player to just below the sprite we have collided with to get into the right space just before the collision.  We will also use the same speed tapering that we did by removing 20% of the vertical speed if the player is moving up.
 
@@ -78,15 +86,11 @@ Now we will have to adjust the player to just below the sprite we have collided 
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we collide with the top of the platform.  The issue now is that the platform will push the player into the ground if the player is under it and cause a pretty glichy bug.
 
 https://user-images.githubusercontent.com/5504953/158018492-11bbd466-97cd-4c4b-b036-32d82134c156.mp4
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
 
 Now we will reverse the direction of the platform if it collides with the player.  So we will add a check in the platfrom to see if the player is within 92 pixels and still collides with the platformer then reverse direction.  We will need to do this in an end step and access the distance variable.  Open up **obj_platform | Step** event and chnage the `dist` variable from a local `var` to a normal variable that will persist until the end step.
 
