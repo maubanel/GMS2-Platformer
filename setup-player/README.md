@@ -101,6 +101,10 @@ You should have 10 idle sprite files in the folder you exported to that looks li
 
 ![10 idles files](images/TenSpritesIdle.png)
 
+Now it is not in order, so you will need to rename the files so that the 1 file is first and 10th is last.
+
+![10 idles files in order](images/TenSpritesIdleinOrder.png)
+
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
