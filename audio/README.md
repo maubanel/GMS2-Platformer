@@ -15,13 +15,23 @@ The final part of this walk through we will add some sound the game.
 
 ##### `Step 1.`\|`PLTFRMR`|:small_blue_diamond:
 
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: 
+
 Lets start by adding music to **obj_game**.  We should also make **obj_game** persistent as well so we have a **HUD** in level 2.
 
 ![make obj_game persistent](images/persistent.png)
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 3.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Download [EggyToast_7.mp3](images/EggyToast_7.mp3).  This was downloaded from **https://freemusicarchive.org/genre/Chiptune** and is from **Eggy Toas**.  The song is called **7**.
 
@@ -29,7 +39,7 @@ Download [EggyToast_7.mp3](images/EggyToast_7.mp3).  This was downloaded from **
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Right click* on **Sounds** and select **New | Sound** and name it `snd_music`.  Press the **...** and select `EggyToast_7.mp3`.
 
@@ -37,7 +47,7 @@ Download [EggyToast_7.mp3](images/EggyToast_7.mp3).  This was downloaded from **
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`PLTFRMR`| :small_orange_diamond:
 
 Open up **obj_game | Create** event.  Check to see if music is playing, if it is not then play the song as priority `1` and looping set to `true`.
 
@@ -45,7 +55,7 @@ Open up **obj_game | Create** event.  Check to see if music is playing, if it is
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`PLTFRMR`| :small_orange_diamond:
+##### `Step 6.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now turn on the volume and you should hear the music in this video.
 
@@ -53,7 +63,7 @@ https://user-images.githubusercontent.com/5504953/158510468-88513c9b-0055-4c60-9
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Find a suitable jump sound or download this one from [Jeremy Sykes on freesoun.org](https://freesound.org/people/jeremysykes/sounds/344500/).  Create a new sound file called `snd_jump` and bind the sound to it.
 
@@ -61,7 +71,7 @@ Find a suitable jump sound or download this one from [Jeremy Sykes on freesoun.o
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **obj_player | Step** event and look for the jump code.  We will play the sound in both the first ground jump and double jump.  We will minimize repetition of the exact same sound by randomly modulating the pitch (frenquency) and gain (volume) of the sound before playing it.
 
@@ -69,7 +79,7 @@ Open up **obj_player | Step** event and look for the jump code.  We will play th
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Unmute the audio to hear the jumping sounds!
 
@@ -77,7 +87,7 @@ https://user-images.githubusercontent.com/5504953/158620577-6e757cf6-6673-4bce-a
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
 
 Now lets add a [fall sound](https://freesound.org/people/broumbroum/sounds/50543/).  Download the prior link or find your own sfx.  Now create a new **Sound** asset and link the sound.
 
@@ -85,7 +95,7 @@ Now lets add a [fall sound](https://freesound.org/people/broumbroum/sounds/50543
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
+##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
 
 Open up **check_for_sound**.  Now look for where we lift the player outside the ground.  We will put in a pitch and volume shifted landing sound there. We do that for both objects and tile backgrounds.
 
@@ -93,7 +103,7 @@ Open up **check_for_sound**.  Now look for where we lift the player outside the 
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump and land.  It should make a sound on both tiles and object ground planes.
 
@@ -101,8 +111,7 @@ https://user-images.githubusercontent.com/5504953/158837594-d3da5aec-89a9-468d-9
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now lets add a [footstep sound](https://freesound.org/people/MATRIXXX_/sounds/515783/).  Download the prior link or find your own sfx.  Make sure it is a single footstep. Now create a new **Sound** asset and link the sound.
 
@@ -110,7 +119,7 @@ Now lets add a [footstep sound](https://freesound.org/people/MATRIXXX_/sounds/51
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Open up **obj_player | End Step** and look for where we pick the run animation.  The footstep sound will only play when running.  Intead of calling the sound we will have a slight delay so that the footsteps don't play too close to each other.  In this sound I picked a 3 frame delay seems right.  When the sound is no longer playing call **alarm 5**.
 
@@ -118,7 +127,7 @@ Open up **obj_player | End Step** and look for where we pick the run animation. 
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: 
 
 Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 5** event. This event fire off quiet footsounds with a slight change in pitch and volume.
 
@@ -126,7 +135,7 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 5** event. This even
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have a nice footstep sound.
 
@@ -134,7 +143,7 @@ https://user-images.githubusercontent.com/5504953/158837665-999c146c-f98c-4088-8
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets add a [health damage sound](https://freesound.org/people/Mrthenoronha/sounds/399904/).  Download the prior link or find your own sfx.  Make sure it is a single hit sound. Now create a new **Sound** asset and link the sound. Call it `snd_hit`.
 
@@ -142,7 +151,7 @@ Now lets add a [health damage sound](https://freesound.org/people/Mrthenoronha/s
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 We can kill two birds with one stone by placing the sound in **obj_player | Alarm 0**.  This is called for both the spike damage and the fire enemy damage.
 
@@ -150,7 +159,7 @@ We can kill two birds with one stone by placing the sound in **obj_player | Alar
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now take damage and you should hear a sound reaction.
 
@@ -158,7 +167,7 @@ https://user-images.githubusercontent.com/5504953/158838128-fed51751-6cfb-47b0-a
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
 
 Now lets add a [death sound](https://freesound.org/people/Fupicat/sounds/475347/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_death`.
 
@@ -166,7 +175,7 @@ Now lets add a [death sound](https://freesound.org/people/Fupicat/sounds/475347/
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Now we switch to the death animation in Alarm 3 so lets trigger the sound there.
 
@@ -174,20 +183,12 @@ Now we switch to the death animation in Alarm 3 so lets trigger the sound there.
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now kill yourself to hear the sound.
 
 https://user-images.githubusercontent.com/5504953/158843691-2d3e4c27-1e2e-4536-9774-33fb6df64907.mp4
 
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_exit`. Trigger the exit sound in the **obj_player | Collision | obj_exit**.  Make sure the sound only plays once as the player keep colliding.
-
-![add exit sound](images/sndExit.png)
 
 ![](../images/line2.png)
 
@@ -197,7 +198,26 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. G
 
 https://user-images.githubusercontent.com/5504953/158844925-65157c6b-d340-4911-84d0-86bd7c301639.mp4
 
-___
+![](../images/line2.png)
+
+##### `Step 24.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_exit`. Trigger the exit sound in the **obj_player | Collision | obj_exit**.  Make sure the sound only plays once as the player keep colliding.
+
+![add exit sound](images/sndExit.png)
+
+![](../images/line2.png)
+
+##### `Step 25.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: 
+
+![](../images/line2.png)
+
+##### `Step 26.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
+
+![](../images/line2.png)
+
+##### `Step 27.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 ![](../images/line.png)
 
