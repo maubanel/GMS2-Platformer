@@ -170,9 +170,9 @@ https://user-images.githubusercontent.com/5504953/158022971-00a35221-91c1-4392-8
 
 ##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-When I first tried to implement the moving along platform I had some fractional errors of the player not being quite on top of the ground.  With precision errors in floats the player drifted downwards and caused issues.  This is solved by making sure that when we are on the ground that `vspeed` is still `0` and that the player is not between pixels (the number is NOT fractional).  Open up **obj_player | End Step**.
+Open up **check_for_ground** and we will need to also turn off the gravity when the player lands on an object (like we did when they land on the tile).  Set `vspeed` to `0` when they are colliding with an object.
 
-![remove fractional error on ground in end_step](images/fractionalError.png)
+![remove fractional error on ground in end_step](images/neutralizeFalling.png)
 
 ![](../images/line2.png)
 
@@ -182,12 +182,37 @@ So we now open up **check_for_ground** and in the checking for 1 pixel below gro
 
 ![adjust player to move along collision box](images/moveAlongGround.png)
 
+![](../images/line2.png)
+
+##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will move along with the platform when standing on it.  I also tested that the platform can't crush the player into the platform horizontally (our previous code should work here).
 
 https://user-images.githubusercontent.com/5504953/158024490-4cf62262-32c2-4441-9a60-d5d73c80c938.mp4
 
-___
+![](../images/line2.png)
 
+##### `Step 22.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: small_blue_diamond:
+
+Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
+
+![save then quit gamemaker](images/saveQuit.png)
+
+![](../images/line2.png)
+
+##### `Step 23.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: small_blue_diamond: small_blue_diamond:
+
+Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session. Make sure the message accurately represents what you have done. Press the <kbd>OK</kbd> button.
+
+![add new and changed files to p4v](images/add.png)
+
+![](../images/line2.png)
+
+##### `Step 24.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: small_blue_diamond: small_blue_diamond: small_blue_diamond:
+
+Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
+
+![submit changelist to p4v](images/submit.png)
 
 ![](../images/line.png)
 
