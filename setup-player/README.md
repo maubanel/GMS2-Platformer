@@ -192,7 +192,7 @@ The order of frames should look like this. Rename them to sort them from the fir
 
 ![order of frames in scene](images/orderOfFrames.png)
 
-If it is backwards you can reverse the order:
+If it is backwards you can reverse the order.  Press <kbd>Edit Image</kbd> and then select **Image | Reverse Frames**.
 
 ![reverse order of frames in scene](images/reverseFrames.png)
 
