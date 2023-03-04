@@ -80,7 +80,7 @@ Now open up `check_ceiling` and we will add a duplicate check of any object the 
 
 ##### `Step 9.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we will have to adjust the player to just below the sprite we have collided with to get into the right space just before the collision.  We will also use the same speed tapering that we did by removing 20% of the vertical speed if the player is moving up.
+Now we will have to adjust the player to just below the sprite we have collided with to get into the right space just before the collision. 
 
 ![adjust player](images/checkForObjCol.png)
 
