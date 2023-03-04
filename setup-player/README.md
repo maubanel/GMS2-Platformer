@@ -88,15 +88,16 @@ Center the player so that the middle of the sprite hits right between two legs. 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
-You should have 10 idle sprite files in the folder you exported to that looks like this:
 
 Now we need to export the layers as separate files.  Select **File | Export | Layers to Files**. Select a **Desitnation** directory, use the **Prefix** `spr_` and select a `PNG-24` type.  Press the <kbd>Run</kbd> button.
+
+![export layers to files](images/exportLayesAsFiles.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
 
-![export layers to files](images/exportLayesAsFiles.png)
+You should have 10 idle sprite files in the folder you exported to that looks like this:
 
 ![10 idles files](images/TenSpritesIdle.png)
 
