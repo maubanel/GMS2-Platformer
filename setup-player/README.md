@@ -184,13 +184,13 @@ https://user-images.githubusercontent.com/5504953/157056104-39fa3803-8866-4c26-b
 
 ##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
- Now we will combine **Hurt (1).png** and **Dead (1).png**. We will go from hurt to die as a single animation.  So bring them both in and order them Hurt 1 through 8 and Dead 1 throug 10 in the photoshop layers.  It should end up looking like this when playing back at `8` frames per second.  We play this back slower to exaggerate and emphasize the death animation.
-
-https://user-images.githubusercontent.com/5504953/157056858-fbf26bbd-6926-45df-b8cb-abbbb1a6bce5.mp4
-
-The order of frames should look like this. Rename them to sort them from the first hurt to the last frame of the dead animation.
+ Now we will combine **Hurt (1).png** and **Dead (1).png**. We will go from hurt to die as a single animation.  So bring them both in and order them Hurt 1 through 8 and Dead 1 throug 10 in the photoshop layers.  It should end up looking like this when playing back at `8` frames per second.  The order of frames should look like this. Rename them to sort them from the first hurt to the last frame of the dead animation.
 
 ![order of frames in scene](images/orderOfFrames.png)
+
+![](../images/line2.png)
+
+##### `Step 22.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 If it is backwards you can reverse the order.  Press <kbd>Edit Image</kbd> and then select **Image | Reverse Frames**.
 
@@ -198,7 +198,13 @@ If it is backwards you can reverse the order.  Press <kbd>Edit Image</kbd> and t
 
 ![](../images/line2.png)
 
-___
+##### `Step 23.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+We play this back slower to exaggerate and emphasize the death animation.
+
+https://user-images.githubusercontent.com/5504953/157056858-fbf26bbd-6926-45df-b8cb-abbbb1a6bce5.mp4
+![](../images/line2.png)
+
 
 
 ![](../images/line.png)
