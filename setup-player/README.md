@@ -165,7 +165,7 @@ https://user-images.githubusercontent.com/5504953/157048996-c62467b0-6112-40e1-9
 
 ##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Repeat the project and import `run (1).png` through `run (8)`. Import them into **Photoshop** with **File | Scripts | Load Files Into Stack** to bring them into one file in multiple layers.  Organize the layers in order of 1 through 8 then position the player at the very bottom of the frame and in the center.  Export each layer as a separate file with  **File | Export | Layers to Files**. Press the <kbd>Resize sprite</kbd> button.  
+Repeat the process and import `run (1).png` through `run (8)`. Import them into **Photoshop** with **File | Scripts | Load Files Into Stack** to bring them into one file in multiple layers.  Organize the layers in order of 1 through 8 then position the player at the very bottom of the frame and in the center.  Export each layer as a separate file with  **File | Export | Layers to Files**. Press the <kbd>Resize sprite</kbd> button.  
 
 Open up **GameMaker** and *Right click* on **Sprites** and select **New | Sprite** and name it `spr_player run`. Change the **Scale Image | Width** to `128`.  Press the `Apply` button  Press the <kbd>Resize sprite</kbd> button. Now select **Resize Canvas | Height** to `128`.  Make sure you press the **Down** arrow so that the feet stay at the bottom of the frame. Set the **Frames per Second** to `12` and test the run animation.
 
@@ -179,6 +179,10 @@ https://user-images.githubusercontent.com/5504953/157051114-7f34d1ee-5ad8-4d3f-8
 Repeat the above for **jump (1).png** (all 8 files) and call it `spr_player_jump` and **fall (1).png** (all 8 files) and call it `spr_player_fall`. It should look like this:
 
 https://user-images.githubusercontent.com/5504953/157056104-39fa3803-8866-4c26-b36c-5018ea605c03.mp4
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
  Now we will combine **Hurt (1).png** and **Dead (1).png**. We will go from hurt to die as a single animation.  So bring them both in and order them Hurt 1 through 8 and Dead 1 throug 10 in the photoshop layers.  It should end up looking like this when playing back at `8` frames per second.  We play this back slower to exaggerate and emphasize the death animation.
 
