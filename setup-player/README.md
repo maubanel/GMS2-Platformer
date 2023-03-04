@@ -188,6 +188,13 @@ https://user-images.githubusercontent.com/5504953/157056104-39fa3803-8866-4c26-b
 
 https://user-images.githubusercontent.com/5504953/157056858-fbf26bbd-6926-45df-b8cb-abbbb1a6bce5.mp4
 
+The order of frames should look like this:
+
+![order of frames in scene](images/orderOfFrames.png)
+
+If it is backwards you can reverse the order:
+
+
 ![](../images/line2.png)
 
 ___
