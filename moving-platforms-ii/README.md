@@ -90,15 +90,17 @@ Now we will have to adjust the player to just below the sprite we have collided 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we collide with the top of the platform.  The issue now is that the platform will push the player into the ground if the player is under it and cause a pretty glichy bug.
 
-https://user-images.githubusercontent.com/5504953/158018492-11bbd466-97cd-4c4b-b036-32d82134c156.mp4
+https://user-images.githubusercontent.com/5504953/222923007-ca24fde9-d92a-41cf-8c41-810fbf41c82b.mp4
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
+
 
 Now we will reverse the direction of the platform if it collides with the player.  So we will add a check in the platfrom to see if the player is within 92 pixels and still collides with the platformer then reverse direction.  We will need to do this in an end step and access the distance variable.  Open up **obj_platform | Step** event and chnage the `dist` variable from a local `var` to a normal variable that will persist until the end step.
 
 ![alter dist from local var to normal var](images/alterDist.png)
 
-![](../images/line2.png)
-
-##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
 
 Press the <kbd>Add Event</kbd> and select a **Step | End Step** event. We want to look to after the platform has moved to the new position.  We will use `instance_place(x, y, obj)` to determine if there is still a collision between the player and the platform.  Now there is no guarantee that the player will run its collision detection and move the player out of the way and when this collision will run as both are in the `end step` event. So we will only reverse direction if the collision volume is within 92 pixels (the player is 92 pixels tall).  This should stop the platform from pushing the player out of the bottom of the level.
 
