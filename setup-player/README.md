@@ -89,7 +89,7 @@ Center the player so that the middle of the sprite hits right between two legs. 
 
 ##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
 
-Now we need to export the layers as separate files.  Select **File | Export | Layers to Files**. Select a **Desitnation** directory, use the **Prefix** `spr_` and select a `PNG-24` type.  Press the <kbd>Run</kbd> button.
+Now we need to export the layers as separate files.  Select **File | Export | Layers to Files**. Select a **Destination** directory, use the **Prefix** `spr_` and select a `PNG-24` type.  Press the <kbd>Run</kbd> button.
 
 ![export layers to files](images/exportLayesAsFiles.png)
 
