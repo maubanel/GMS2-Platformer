@@ -138,6 +138,14 @@ Now lets change that into code.  Open up `check_ceiling` and add a check to see 
 
 ##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Open up **obj_player | End Step** and call `check_ceiling()` after you have checked the lateral collisions.
+
+![call check_ceiuling() in obj_player end step event](images/checkCeilingCol.png)
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Place a collision platfrom one grid piece above the player's head.
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the player collides.  But the player gets "stuck" on the ceiling as it takes a while for gravity to reverse the upwards force especially on a short jump.
@@ -146,19 +154,11 @@ https://user-images.githubusercontent.com/5504953/157647158-262fc276-8544-4d88-9
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 I think I would like to keep a bit of ceiling friction.  Sliding the head along the ceiling is kind of fun.  What we will do is have that collision slow down the player by 20% each collision frame, making gravity take over much faster.
 
 ![adjust vspeed on ceiling collision](images/reduceCeilingFriction.png)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Open up **obj_player | End Step** and call `check_ceiling()` after you have checked the lateral collisions.
-
-![call check_ceiuling() in obj_player end step event](images/checkCeilingCol.png)
 
 ![](../images/line2.png)
 
