@@ -88,7 +88,7 @@ Now we will have to adjust the player to just below the sprite we have collided 
 
 ##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we collide with the top of the platform.  The issue now is that the platform will push the player into the ground if the player is under it and cause a pretty glichy bug.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we collide with the top of the platform.  The issue now is that the platform will push the player into the platform if the player is under it and cause a pretty glichy bug as they will zap to the right.
 
 https://user-images.githubusercontent.com/5504953/222923007-ca24fde9-d92a-41cf-8c41-810fbf41c82b.mp4
 
