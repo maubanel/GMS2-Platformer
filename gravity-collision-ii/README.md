@@ -41,7 +41,7 @@ Go to the **Step** event and only add gravity when the player is not on the grou
 
 ##### `Step 4.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will notice that we are still getting it in ground every frame because our y position is not in integers it is in fractions.  YOu will notice the player does vibrate a little bit which reflects this y value that is always adjusting.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you will notice that we are still getting it in ground every frame because our y position is not in integers it is in fractions.  You may notice the player does vibrate a little bit which reflects this y value that is always adjusting.
 
 https://user-images.githubusercontent.com/5504953/157242235-c8149476-e047-4268-ba19-e5a16681393d.mp4
 
@@ -49,7 +49,7 @@ https://user-images.githubusercontent.com/5504953/157242235-c8149476-e047-4268-b
 
 ##### `Step 5.`\|`PLTFRMR`| :small_orange_diamond:
 
-Now we don't want the player to be constantly going on ground and in air as when they are 1 pixel on top of the collision volume they are back to in air, even though they are in ground.  So lets add two temporary variables to track the ground one pixel below our feet.
+Now we don't want the player to be constantly going on ground and in air as when they are 1 pixel on top of the collision volume they are back to in air, even though they are in ground.  So lets add two temporary variables to track the ground one pixel below our feet. Reopen the **check_for_ground** script.
 
 ![check below vars](images/checkBelowTemp.png)
 
