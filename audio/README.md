@@ -201,17 +201,17 @@ https://user-images.githubusercontent.com/5504953/158843691-2d3e4c27-1e2e-4536-9
 
 ##### `Step 24.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Go to the exit and hear the sound.  That is all for this walk through, now go make some interesting platforming levels!
+Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_exit`. Trigger the exit sound in the **obj_player | Collision | obj_exit**.  Make sure the sound only plays once as the player keep colliding.
 
-https://user-images.githubusercontent.com/5504953/158844925-65157c6b-d340-4911-84d0-86bd7c301639.mp4
+![add exit sound](images/sndExit.png)
 
 ![](../images/line2.png)
 
 ##### `Step 25.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: 
 
-Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_exit`. Trigger the exit sound in the **obj_player | Collision | obj_exit**.  Make sure the sound only plays once as the player keep colliding.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Go to the exit and hear the sound.  That is all for this walk through, now go make some interesting platforming levels!
 
-![add exit sound](images/sndExit.png)
+https://user-images.githubusercontent.com/5504953/158844925-65157c6b-d340-4911-84d0-86bd7c301639.mp4
 
 ![](../images/line2.png)
 
