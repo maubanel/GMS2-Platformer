@@ -33,7 +33,7 @@ Lets start by adding music to **obj_game**.  We should also make **obj_game** pe
 
 ##### `Step 3.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Download [EggyToast_7.mp3](images/EggyToast_7.mp3).  This was downloaded from **https://freemusicarchive.org/genre/Chiptune** and is from **Eggy Toas**.  The song is called **7**.
+Download [EggyToast_7.mp3](images/EggyToast_7.mp3).  This was downloaded from **https://freemusicarchive.org/genre/Chiptune** and is from **Eggy Toast**.  The song is called **7**.
 
 ![download EggyToast_7.mp3](images/eggyMusic.png)
 
