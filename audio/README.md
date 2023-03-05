@@ -105,13 +105,21 @@ Open up **check_for_sound**.  Now look for where we lift the player outside the 
 
 ##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+This exposes a bug we have caused.  The player now constantly falls when going down on the moving platform. Open up **check_fro_ground** and adjust the player y when colliding with a platform moving downwards.
+
+![check for ground fix](images/checkForGroundFix.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now jump and land.  It should make a sound on both tiles and object ground planes.
 
 https://user-images.githubusercontent.com/5504953/158837594-d3da5aec-89a9-468d-9299-2039f3a2c469.mp4
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now lets add a [footstep sound](https://freesound.org/people/MATRIXXX_/sounds/515783/).  Download the prior link or find your own sfx.  Make sure it is a single footstep. Now create a new **Sound** asset and link the sound.
 
@@ -119,7 +127,7 @@ Now lets add a [footstep sound](https://freesound.org/people/MATRIXXX_/sounds/51
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: 
 
 Open up **obj_player | End Step** and look for where we pick the run animation.  The footstep sound will only play when running.  Intead of calling the sound we will have a slight delay so that the footsteps don't play too close to each other.  In this sound I picked a 3 frame delay seems right.  When the sound is no longer playing call **alarm 5**.
 
@@ -127,7 +135,7 @@ Open up **obj_player | End Step** and look for where we pick the run animation. 
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 5** event. This event fire off quiet footsounds with a slight change in pitch and volume.
 
@@ -135,7 +143,7 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 5** event. This even
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have a nice footstep sound.
 
@@ -143,7 +151,7 @@ https://user-images.githubusercontent.com/5504953/158837665-999c146c-f98c-4088-8
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets add a [health damage sound](https://freesound.org/people/Mrthenoronha/sounds/399904/).  Download the prior link or find your own sfx.  Make sure it is a single hit sound. Now create a new **Sound** asset and link the sound. Call it `snd_hit`.
 
@@ -151,7 +159,7 @@ Now lets add a [health damage sound](https://freesound.org/people/Mrthenoronha/s
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 We can kill two birds with one stone by placing the sound in **obj_player | Alarm 0**.  This is called for both the spike damage and the fire enemy damage.
 
@@ -159,7 +167,7 @@ We can kill two birds with one stone by placing the sound in **obj_player | Alar
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now take damage and you should hear a sound reaction.
 
@@ -167,7 +175,7 @@ https://user-images.githubusercontent.com/5504953/158838128-fed51751-6cfb-47b0-a
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Now lets add a [death sound](https://freesound.org/people/Fupicat/sounds/475347/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_death`.
 
@@ -175,7 +183,7 @@ Now lets add a [death sound](https://freesound.org/people/Fupicat/sounds/475347/
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we switch to the death animation in Alarm 3 so lets trigger the sound there.
 
@@ -183,16 +191,15 @@ Now we switch to the death animation in Alarm 3 so lets trigger the sound there.
 
 ![](../images/line2.png)
 
-##### `Step 22.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 23.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now kill yourself to hear the sound.
 
 https://user-images.githubusercontent.com/5504953/158843691-2d3e4c27-1e2e-4536-9774-33fb6df64907.mp4
 
-
 ![](../images/line2.png)
 
-##### `Step 23.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 24.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Go to the exit and hear the sound.  That is all for this walk through, now go make some interesting platforming levels!
 
@@ -200,7 +207,7 @@ https://user-images.githubusercontent.com/5504953/158844925-65157c6b-d340-4911-8
 
 ![](../images/line2.png)
 
-##### `Step 24.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 25.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: 
 
 Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607/).  Download the prior link or find your own sfx. Now create a new **Sound** asset and link the sound. Call it `snd_exit`. Trigger the exit sound in the **obj_player | Collision | obj_exit**.  Make sure the sound only plays once as the player keep colliding.
 
@@ -208,7 +215,7 @@ Now lets add an [exit sound](https://freesound.org/people/DWOBoyle/sounds/143607
 
 ![](../images/line2.png)
 
-##### `Step 25.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: 
+##### `Step 26.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
@@ -216,7 +223,7 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ![](../images/line2.png)
 
-##### `Step 26.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
+##### `Step 27.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session. Make sure the message accurately represents what you have done. Press the <kbd>OK</kbd> button.
 
@@ -224,7 +231,7 @@ Open up **P4V**.  Select the top folder and press the **Add** button.  We want t
 
 ![](../images/line2.png)
 
-##### `Step 27.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 28.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
