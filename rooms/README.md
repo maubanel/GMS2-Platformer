@@ -189,13 +189,17 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 https://user-images.githubusercontent.com/5504953/158508214-83a2d9b3-f361-4677-bb2f-8d308e671305.mp4
 
+![](../images/line2.png)
+
+##### `Step 23.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
 ![save then quit gamemaker](images/saveQuit.png)
 
 ![](../images/line2.png)
 
-##### `Step 23.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 24.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session. Make sure the message accurately represents what you have done. Press the <kbd>OK</kbd> button.
 
@@ -203,7 +207,7 @@ Open up **P4V**.  Select the top folder and press the **Add** button.  We want t
 
 ![](../images/line2.png)
 
-##### `Step 24.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 25.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
