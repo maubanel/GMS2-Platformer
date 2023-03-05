@@ -80,13 +80,20 @@ https://user-images.githubusercontent.com/5504953/158499701-264deeef-7af1-4b83-a
 
 ##### `Step 9.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **Collision | obj_exit** event and add a neutralizing of the `hspeed`.  Also, lets change the sign by accessing it in the collision with `with (other)`.  We will then take the cosine of time which will return a value of -1 to 1 and make it look like the sign is rotating in 3d around the Y axis.  
+Now we want the sign to rotate when we go by it (or a face 2-d rotation).  Open up **obj_exit** and add a **Create** and **Step Event**.  
 
-![rotate sign on y](images/AnimateSign.png)
+![spin exit sign](images/spinExit.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
+
+
+Open up **Collision | obj_exit** event and add a neutralizing of the `hspeed`.  Also, lets change the sign by accessing it in the collision with `with (other)`.  We will then take the cosine of time which will return a value of -1 to 1 and make it look like the sign is rotating in 3d around the Y axis.  
+
+![rotate sign on y](images/AnimateSign.png)
+
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run into the end and you should stop and the sign rotates.
 
