@@ -239,7 +239,7 @@ Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
 | `gms2.platformer`\|`THE END`| 
 | :--- |
-| **That's All Folks!** Thanks for sticking around. That is it for this tutorial but there is so much more that you can do with this game.  First you can start by designign a more engaging level.  Have fun! |
+| **That's All Folks!** Thanks for sticking around. That is it for this tutorial but there is so much more that you can do with this game.  First you can start by designing a more engaging level.  Have fun! |
 
 ![](../images/line.png)
 
