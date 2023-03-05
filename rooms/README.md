@@ -89,11 +89,13 @@ Now we want the sign to rotate when we go by it (or a face 2-d rotation).  Open 
 
 ##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
 
-
 Open up **Collision | obj_exit** event and add a neutralizing of the `hspeed`.  Also, lets trigger the rotation with `with (other)`.  
 
 ![rotate sign on y](images/AnimateSign.png)
 
+![](../images/line2.png)
+
+##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run into the end and you should stop and the sign rotates.
 
@@ -101,7 +103,7 @@ https://user-images.githubusercontent.com/5504953/158501045-11a29f85-a0b7-448f-a
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_lvl_2`. Change the **Instance** layer name to `Player`.  Add a **Tile** layer and call it `Platforms` and place it under **Player**. Assign `ts_platformer_bkgs` to this new layer.
 
@@ -109,7 +111,7 @@ https://user-images.githubusercontent.com/5504953/158501045-11a29f85-a0b7-448f-a
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Add background tiles to layer.  Go crazy do what you like~!
 
@@ -117,7 +119,7 @@ Add background tiles to layer.  Go crazy do what you like~!
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Add a new **Tile** layer called `Collisions`.  Assign `ts_collisions` to the layer.
 
@@ -125,7 +127,7 @@ Add a new **Tile** layer called `Collisions`.  Assign `ts_collisions` to the lay
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: 
 
 Now add collisions on where you want the player to be able to jumnp to and walk to.
 
@@ -133,7 +135,7 @@ Now add collisions on where you want the player to be able to jumnp to and walk 
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Add another **Instance** layer and call it `MovingPlatforms`.  Drag an `obj_platform` to the layer.  Double click the object and press the **Variables** button.  Then set the **start_x**, **start_y** and **end_y** to `448`.
 
@@ -141,7 +143,7 @@ Add another **Instance** layer and call it `MovingPlatforms`.  Drag an `obj_plat
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now place the platform at the end and set the **end_x**.
 
@@ -149,7 +151,7 @@ Now place the platform at the end and set the **end_x**.
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now open up **obj_player | Collision | obj_exit** event and an alarm call to `alarm[4]`.
 
@@ -157,7 +159,7 @@ Now open up **obj_player | Collision | obj_exit** event and an alarm call to `al
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now temporarilly drag a player into **rm_lvl_2** and place them in the starting point.  Record their **x** and **y** position for later. **DELETE** the player from the level.
 
@@ -165,7 +167,7 @@ Now temporarilly drag a player into **rm_lvl_2** and place them in the starting 
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
 
 Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 4** event. Now check if we are in **rm_test**, if we are then go to the next level using the `room_goto(room)` function.  Then set the **x** and the **y** to the values you recorded in the previous step (make sure you deleted the player).  Change the player state back to `player_state.play`.
 
@@ -173,7 +175,7 @@ Press the <kbd>Add Event</kbd> and select a **Alarm | Alarm 4** event. Now check
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Now we want the player to keep its health when it changes level.  So we need to have the player go from level to level.  We do this by opening **obj_player** and setting `Persistent` to `true`.
 
@@ -181,15 +183,11 @@ Now we want the player to keep its health when it changes level.  So we need to 
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the level change should work perfectly as planned!
 
 https://user-images.githubusercontent.com/5504953/158508214-83a2d9b3-f361-4677-bb2f-8d308e671305.mp4
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
