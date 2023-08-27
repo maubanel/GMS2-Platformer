@@ -78,7 +78,6 @@ Chapter introduction here.
 
 ![](../images/line2.png)
 
-
 ##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 ![alt_text](images/.png)
